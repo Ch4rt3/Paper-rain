@@ -14,7 +14,7 @@ public class PlayerTransform : MonoBehaviour
     private Animator animator;
     private Rigidbody2D rb;
 
-    private bool isTransforming = false;
+    public bool isTransforming = false;
 
     void Start()
     {

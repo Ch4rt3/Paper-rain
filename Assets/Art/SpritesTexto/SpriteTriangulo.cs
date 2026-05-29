@@ -1,4 +1,5 @@
 using UnityEngine;
+
 public class SpriteTriangulo : MonoBehaviour 
 {
     [Header("=== TRANSFORMACIÓN ===")]  
@@ -21,7 +22,8 @@ public class SpriteTriangulo : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (!yaSeTransformo)
+        // Evitamos que se transforme si choca con la moto (Player), queremos que lo haga al tocar el suelo
+        if (!yaSeTransformo && !collision.gameObject.CompareTag("Player"))
         {
             TransformarEnRampa();
         }
@@ -31,12 +33,24 @@ public class SpriteTriangulo : MonoBehaviour
     {
         yaSeTransformo = true;
 
+        // 1. Cambiar el aspecto visual al triángulo
         if (spriteTriangulo != null && spriteRenderer != null)
         {
             spriteRenderer.sprite = spriteTriangulo;
         }
 
+        // 2. Apagar la caja física y activar el triángulo físico
         if (boxCollider != null) boxCollider.enabled = false;
         if (polygonCollider != null) polygonCollider.enabled = true;
+
+        // 3. ANCLAR LA RAMPA (La vuelve totalmente inmóvil para que la moto suba)
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero; // Detiene el impacto inicial de la caída
+            rb.angularVelocity = 0f;          // Evita cualquier rotación
+            
+            // Bloquea por completo el movimiento en X, Y y la rotación nativa de Unity
+            rb.constraints = RigidbodyConstraints2D.FreezeAll; 
+        }
     }
 }
