@@ -38,8 +38,8 @@ public class Manija : MonoBehaviour
 
     private IEnumerator DesvanecerManija()
     {
-        // Esperar 2 segundos
-        yield return new WaitForSeconds(2f);
+        // Esperar 1 segundos
+        yield return new WaitForSeconds(1f);
 
         float tiempoDesvanecimiento = 1f;
         float tiempoTranscurrido = 0f;

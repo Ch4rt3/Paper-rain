@@ -23,8 +23,8 @@ public class ObstaculoEffect : MonoBehaviour
 
     private IEnumerator DesvanecerYDestruir()
     {
-        // Espera 2 segundos 
-        yield return new WaitForSeconds(2f);
+        // Espera 1 segundos 
+        yield return new WaitForSeconds(1f);
 
         float tiempoDesvanecimiento = 1f; 
         float tiempoTranscurrido = 0f;
