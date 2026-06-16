@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ExcavadoraIdle
+  m_Name: BulldozerLift
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,13 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 9221745535707813847, guid: afc5c6efbe66d844197bdb751ba9781b, type: 3}
+      value: {fileID: -1152702146246895426, guid: 12b1706cd4a85b64899cb0cb2a717576, type: 3}
+    - time: 0.083333336
+      value: {fileID: -912525021939492760, guid: 12b1706cd4a85b64899cb0cb2a717576, type: 3}
+    - time: 0.16666667
+      value: {fileID: -593871456984699965, guid: 12b1706cd4a85b64899cb0cb2a717576, type: 3}
+    - time: 0.25
+      value: {fileID: -2743772980427273397, guid: 12b1706cd4a85b64899cb0cb2a717576, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,13 +50,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 9221745535707813847, guid: afc5c6efbe66d844197bdb751ba9781b, type: 3}
+    - {fileID: -1152702146246895426, guid: 12b1706cd4a85b64899cb0cb2a717576, type: 3}
+    - {fileID: -912525021939492760, guid: 12b1706cd4a85b64899cb0cb2a717576, type: 3}
+    - {fileID: -593871456984699965, guid: 12b1706cd4a85b64899cb0cb2a717576, type: 3}
+    - {fileID: -2743772980427273397, guid: 12b1706cd4a85b64899cb0cb2a717576, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.083333336
+    m_StopTime: 0.33333334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

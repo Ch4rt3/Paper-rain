@@ -5,7 +5,7 @@ public class PlayerTransform : MonoBehaviour
     public enum Form
     {
         Moto,
-        Excavadora,
+        Bulldozer,
         Avion
     }
 
@@ -31,7 +31,7 @@ public class PlayerTransform : MonoBehaviour
             ChangeForm(Form.Moto);
 
         if (Input.GetKeyDown(KeyCode.X))
-            ChangeForm(Form.Excavadora);
+            ChangeForm(Form.Bulldozer);
 
         if (Input.GetKeyDown(KeyCode.C))
             ChangeForm(Form.Avion);
@@ -44,11 +44,11 @@ public class PlayerTransform : MonoBehaviour
 
         isTransforming = true;
 
-        if (currentForm == Form.Moto && targetForm == Form.Excavadora)
-            animator.Play("MotoToExcavadora");
+        if (currentForm == Form.Moto && targetForm == Form.Bulldozer)
+            animator.Play("MotoToBulldozer");
 
-        else if (currentForm == Form.Excavadora && targetForm == Form.Moto)
-            animator.Play("MotoToExcavadoraReverse");
+        else if (currentForm == Form.Bulldozer && targetForm == Form.Moto)
+            animator.Play("MotoToBulldozerReverse");
 
         else if (currentForm == Form.Moto && targetForm == Form.Avion)
             animator.Play("MotoToAvion");
@@ -56,11 +56,11 @@ public class PlayerTransform : MonoBehaviour
         else if (currentForm == Form.Avion && targetForm == Form.Moto)
             animator.Play("MotoToAvionReverse");
 
-        else if (currentForm == Form.Excavadora && targetForm == Form.Avion)
-            animator.Play("ExcavadoraToAvion");
+        else if (currentForm == Form.Bulldozer && targetForm == Form.Avion)
+            animator.Play("BulldozerToAvion");
 
-        else if (currentForm == Form.Avion && targetForm == Form.Excavadora)
-            animator.Play("ExcavadoraToAvionReverse");
+        else if (currentForm == Form.Avion && targetForm == Form.Bulldozer)
+            animator.Play("BulldozerToAvionReverse");
 
         currentForm = targetForm;
 
@@ -77,8 +77,8 @@ public class PlayerTransform : MonoBehaviour
             case Form.Moto:
                 animator.Play("MotoIdle");
                 break;
-            case Form.Excavadora:
-                animator.Play("ExcavadoraIdle");
+            case Form.Bulldozer:
+                animator.Play("BulldozerIdle");
                 break;
             case Form.Avion:
                 animator.Play("AvionIdle");
@@ -94,7 +94,7 @@ public class PlayerTransform : MonoBehaviour
                 rb.gravityScale = 2f;
                 break;
 
-            case Form.Excavadora:
+            case Form.Bulldozer:
                 rb.gravityScale = 3f;
                 break;
 

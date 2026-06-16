@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MotoToExcavadora
+  m_Name: MotoToBulldozer
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -31,15 +31,13 @@ AnimationClip:
     - time: 0.2
       value: {fileID: 2114022297414630781, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
     - time: 0.26666668
-      value: {fileID: 6176330302035829821, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
+      value: {fileID: -8322080870097706589, guid: e2a666582c747a84ea19eff7e3175e6b, type: 3}
     - time: 0.33333334
-      value: {fileID: -100188313255110954, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
+      value: {fileID: 8235734081856959616, guid: e2a666582c747a84ea19eff7e3175e6b, type: 3}
     - time: 0.4
-      value: {fileID: 3339467501510067152, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
+      value: {fileID: 4586875914366200888, guid: e2a666582c747a84ea19eff7e3175e6b, type: 3}
     - time: 0.46666667
-      value: {fileID: 3936117825801411292, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
-    - time: 0.53333336
-      value: {fileID: 9221745535707813847, guid: afc5c6efbe66d844197bdb751ba9781b, type: 3}
+      value: {fileID: -8511803805333525428, guid: e2a666582c747a84ea19eff7e3175e6b, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -67,17 +65,16 @@ AnimationClip:
     - {fileID: -3416439974660620770, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
     - {fileID: -6395838391703752771, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
     - {fileID: 2114022297414630781, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
-    - {fileID: 6176330302035829821, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
-    - {fileID: -100188313255110954, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
-    - {fileID: 3339467501510067152, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
-    - {fileID: 3936117825801411292, guid: 0beddffd2a371af4f86151fe525cbb27, type: 3}
-    - {fileID: 9221745535707813847, guid: afc5c6efbe66d844197bdb751ba9781b, type: 3}
+    - {fileID: -8322080870097706589, guid: e2a666582c747a84ea19eff7e3175e6b, type: 3}
+    - {fileID: 8235734081856959616, guid: e2a666582c747a84ea19eff7e3175e6b, type: 3}
+    - {fileID: 4586875914366200888, guid: e2a666582c747a84ea19eff7e3175e6b, type: 3}
+    - {fileID: -8511803805333525428, guid: e2a666582c747a84ea19eff7e3175e6b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6
+    m_StopTime: 0.53333336
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

@@ -7,7 +7,7 @@ public class PlayerMove : MonoBehaviour
     [Header("Configuración de Velocidades")]
     [SerializeField] float velocidadMoto = 8f;
     [SerializeField] float velocidadAvion = 5f;
-    [SerializeField] float velocidadExcavadora = 2f;
+    [SerializeField] float velocidadBulldozer = 2f;
 
     // Componentes del mismo Player
     Rigidbody2D _body;
@@ -72,8 +72,8 @@ public class PlayerMove : MonoBehaviour
             case PlayerTransform.Form.Moto:
                 return velocidadMoto;
 
-            case PlayerTransform.Form.Excavadora:
-                return velocidadExcavadora;
+            case PlayerTransform.Form.Bulldozer:
+                return velocidadBulldozer;
 
             case PlayerTransform.Form.Avion:
                 return velocidadAvion;
