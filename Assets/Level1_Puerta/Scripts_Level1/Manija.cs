@@ -16,32 +16,38 @@ public class Manija : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // 1. Detecta el golpe sólido del objeto con el Tag "Obstaculo"
+        // 1. Detecta si chocamos con la moto desde arriba para que caiga
         if (collision.gameObject.CompareTag("Obstaculo") && !yaSeCayo)
         {
             yaSeCayo = true;
             if (rb != null)
             {
-                rb.bodyType = RigidbodyType2D.Dynamic; // Cae la manija por gravedad
+                rb.bodyType = RigidbodyType2D.Dynamic; // Cae la manija
             }
+            return; 
         }
 
-        // 2. Cuando la manija cae y choca contra el suelo (Piso o Suelo)
-        if (collision.gameObject.name.Contains("Piso") || collision.gameObject.CompareTag("Suelo"))
+        // 2. Si la manija cae y choca contra el texto "Obstaculo"
+        if (collision.gameObject.name.Contains("TextSave") || collision.gameObject.CompareTag("Obstaculo"))
         {
-            // NUEVO: Busca el script independiente y activa el movimiento de la puerta
+            // Buscamos el script de la puerta para abrirla visualmente
             PuertaMovimiento movPuerta = Object.FindFirstObjectByType<PuertaMovimiento>();
             if (movPuerta != null)
             {
-                movPuerta.EjecutarApertura();
+                movPuerta.EjecutarApertura(); // Activa la animación
+
+                // --- NUEVO: APAGAR EL COLLIDER DE LA PUERTA ---
+                // Buscamos el BoxCollider2D que está en el mismo objeto que la puerta
+                BoxCollider2D colliderPuerta = movPuerta.GetComponent<BoxCollider2D>();
+                if (colliderPuerta != null)
+                {
+                    colliderPuerta.enabled = false; // ¡Desaparece el muro invisible!
+                }
             }
 
-            // Tu código original intacto que limpia los objetos de la escena
-            TextSave1 textoObstaculo = Object.FindFirstObjectByType<TextSave1>();
-            if (textoObstaculo != null)
-            {
-                textoObstaculo.DesaparecerObjetosYAbrirPuerta(this.gameObject);
-            }
+            // Desaparecemos ambos objetos (manija y texto) al instante
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }
