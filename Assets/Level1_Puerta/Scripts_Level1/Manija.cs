@@ -1,58 +1,48 @@
 using UnityEngine;
-using System.Collections; 
 
 public class Manija : MonoBehaviour
 {
-    [SerializeField] private GameObject objetoPuerta; 
-    
     private Rigidbody2D rb;
-    private SpriteRenderer spriteRenderer; 
-    private bool yaGolpeada = false;
+    private bool yaSeCayo = false;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>(); 
+        if (rb != null)
+        {
+            rb.bodyType = RigidbodyType2D.Kinematic; // Quieta al inicio
+        }
     }
 
+    // CAMBIADO A TRIGGER: Evita que los objetos se queden trabados en el aire
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        // 1. Si el objeto físico que cae tiene el Tag "Obstaculo"
+        if (other.CompareTag("Obstaculo") && !yaSeCayo)
+        {
+            yaSeCayo = true;
+            
+            // Le quitamos el modo "Is Trigger" para que cuando caiga al suelo SÍ choque de verdad
+            Collider2D miCollider = GetComponent<Collider2D>();
+            if (miCollider != null) miCollider.isTrigger = false;
+
+            if (rb != null)
+            {
+                rb.bodyType = RigidbodyType2D.Dynamic; // ¡Cae por gravedad de inmediato!
+            }
+        }
+    }
+
+    // Detecta cuando la manija toca el suelo real
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Obstaculo") && !yaGolpeada)
+        if (collision.gameObject.name.Contains("Piso") || collision.gameObject.CompareTag("Suelo"))
         {
-            yaGolpeada = true;
-            rb.bodyType = RigidbodyType2D.Dynamic;
-
-            if (objetoPuerta != null)
+            TextSave1 textoObstaculo = Object.FindFirstObjectByType<TextSave1>();
+            if (textoObstaculo != null)
             {
-                Puerta scriptPuerta = objetoPuerta.GetComponent<Puerta>();
-                if (scriptPuerta != null)
-                {
-                    scriptPuerta.DesaparecerPuerta();
-                }
+                textoObstaculo.DesaparecerObjetosYAbrirPuerta(this.gameObject);
             }
-
-            // Desvanecimiento de la manija
-            StartCoroutine(DesvanecerManija());
         }
-    }
-
-    private IEnumerator DesvanecerManija()
-    {
-        // Esperar 1 segundos
-        yield return new WaitForSeconds(1f);
-
-        float tiempoDesvanecimiento = 1f;
-        float tiempoTranscurrido = 0f;
-        Color colorOriginal = spriteRenderer.color;
-
-        while (tiempoTranscurrido < tiempoDesvanecimiento)
-        {
-            tiempoTranscurrido += Time.deltaTime;
-            float nuevoAlfa = Mathf.Lerp(1f, 0f, tiempoTranscurrido / tiempoDesvanecimiento);
-            spriteRenderer.color = new Color(colorOriginal.r, colorOriginal.g, colorOriginal.b, nuevoAlfa);
-            yield return null;
-        }
-
-        Destroy(gameObject);
     }
 }
