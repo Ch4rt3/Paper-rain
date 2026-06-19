@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f2fb874dab27a3942822ec651acb7567
+guid: f0536c83350295742a4a3db464ed02b5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 867071628591480377
-    second: Gemini_Generated_Image_kjzq6lkjzq6lkjzq-removebg-preview_0
+      213: 4277154355656928983
+    second: Puerta_Cerrada_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gemini_Generated_Image_kjzq6lkjzq6lkjzq-removebg-preview_0
+      name: Puerta_Cerrada_0
       rect:
         serializedVersion: 2
-        x: 146
-        y: 50
-        width: 132
-        height: 401
+        x: 16
+        y: 34
+        width: 96
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 93eb3016d05780c00800000000000000
-      internalID: 867071628591480377
+      spriteID: 7de2272a9318b5b30800000000000000
+      internalID: 4277154355656928983
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Gemini_Generated_Image_kjzq6lkjzq6lkjzq-removebg-preview_0: 867071628591480377
+      Puerta_Cerrada_0: 4277154355656928983
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

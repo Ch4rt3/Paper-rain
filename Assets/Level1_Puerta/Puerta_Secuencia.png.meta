@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: c4d8b2fb685a5464f9ed7b7405619a09
+guid: b2702e1af4ee70f4ea27fd0f78106572
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7032801726275972808
-    second: Captura de pantalla 2026-06-09 180624_0
+      213: 5300398957443030652
+    second: Puerta_Secuencia_0
+  - first:
+      213: 3572790870063380101
+    second: Puerta_Secuencia_1
+  - first:
+      213: -209119718622613342
+    second: Puerta_Secuencia_2
+  - first:
+      213: 4866635986813878927
+    second: Puerta_Secuencia_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura de pantalla 2026-06-09 180624_0
+      name: Puerta_Secuencia_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 362
-        height: 83
+        x: 16
+        y: 67
+        width: 191
+        height: 262
+      alignment: 9
+      pivot: {x: 0.6918676, y: 0.48445868}
+      border: {x: 79, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e1e32e4ccce8940800000000000000
+      internalID: 5300398957443030652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta_Secuencia_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 66
+        width: 104
+        height: 265
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ceee6e98e7899160800000000000000
-      internalID: 7032801726275972808
+      spriteID: 586f2eaed5a159130800000000000000
+      internalID: 3572790870063380101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta_Secuencia_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 65
+        width: 98
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a038ff49be091df0800000000000000
+      internalID: -209119718622613342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Puerta_Secuencia_3
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 65
+        width: 95
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f828c2d35a3c98340800000000000000
+      internalID: 4866635986813878927
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 20eecae8efdde234fa926e46dd73a394
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Captura de pantalla 2026-06-09 180624_0: 7032801726275972808
+      Puerta_Secuencia_0: 5300398957443030652
+      Puerta_Secuencia_1: 3572790870063380101
+      Puerta_Secuencia_2: -209119718622613342
+      Puerta_Secuencia_3: 4866635986813878927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

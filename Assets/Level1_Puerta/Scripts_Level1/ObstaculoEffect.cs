@@ -1,19 +1,20 @@
 using UnityEngine;
+using TMPro;
 using System.Collections;
 
-public class ObstaculoEffect : MonoBehaviour
+public class ObstaculoEfecto : MonoBehaviour
 {
-    private SpriteRenderer spriteRenderer;
+    private TextMeshProUGUI textoTMP; 
     private bool yaEnSuelo = false;
 
     void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        textoTMP = GetComponent<TextMeshProUGUI>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Iniciar el desvanecimiento
+        // Inicio el desvanecimiento
         if (collision.gameObject.CompareTag("Suelo") && !yaEnSuelo)
         {
             yaEnSuelo = true;
@@ -23,23 +24,24 @@ public class ObstaculoEffect : MonoBehaviour
 
     private IEnumerator DesvanecerYDestruir()
     {
-        // Espera 1 segundos 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
 
-        float tiempoDesvanecimiento = 1f; 
+        float tiempoDesvanecimiento = 0.5f; 
         float tiempoTranscurrido = 0f;
-        Color colorOriginal = spriteRenderer.color;
+        
+      
+        Color colorOriginal = textoTMP.color;
 
         while (tiempoTranscurrido < tiempoDesvanecimiento)
         {
             tiempoTranscurrido += Time.deltaTime;
+            float nuevoAlfa = Mathf.Lerp(0.5f, 0f, tiempoTranscurrido / tiempoDesvanecimiento);
             
-            float nuevoAlfa = Mathf.Lerp(1f, 0f, tiempoTranscurrido / tiempoDesvanecimiento);
-            spriteRenderer.color = new Color(colorOriginal.r, colorOriginal.g, colorOriginal.b, nuevoAlfa);
+            textoTMP.color = new Color(colorOriginal.r, colorOriginal.g, colorOriginal.b, nuevoAlfa);
             yield return null;
         }
 
-        
+    
         Destroy(gameObject);
     }
-}
+}   
