@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: fb0af8cab4b4d654fa663695eff68927
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7027365334736286254
+    second: Grass asset corregido_0
+  - first:
+      213: 245371114175405040
+    second: Grass asset corregido_1
+  - first:
+      213: -6997519100277715179
+    second: Grass asset corregido_2
+  - first:
+      213: -3567624789243986965
+    second: Grass asset corregido_3
+  - first:
+      213: 2680750726439621848
+    second: Grass asset corregido_4
+  - first:
+      213: -8766638884279104730
+    second: Grass asset corregido_5
+  - first:
+      213: -871927903768812076
+    second: Grass asset corregido_6
+  - first:
+      213: -5772628957745002053
+    second: Grass asset corregido_7
+  - first:
+      213: 8705384594403473051
+    second: Grass asset corregido_8
+  - first:
+      213: -4670356337072572682
+    second: Grass asset corregido_9
+  - first:
+      213: -6233779424738287238
+    second: Grass asset corregido_10
+  - first:
+      213: -7043812492739755086
+    second: Grass asset corregido_11
+  - first:
+      213: -7921124657098620008
+    second: Grass asset corregido_12
+  - first:
+      213: 1133877536463466208
+    second: Grass asset corregido_13
+  - first:
+      213: 943436648677601507
+    second: Grass asset corregido_14
+  - first:
+      213: 7943732016269293896
+    second: Grass asset corregido_15
+  - first:
+      213: -8202586923068736499
+    second: Grass asset corregido_16
+  - first:
+      213: 3258783062922176883
+    second: Grass asset corregido_17
+  - first:
+      213: 7434837695893071540
+    second: Grass asset corregido_18
+  - first:
+      213: 1789938169193233390
+    second: Grass asset corregido_19
+  - first:
+      213: 8250986336982495187
+    second: Grass asset corregido_20
+  - first:
+      213: 3107126488988705137
+    second: Grass asset corregido_21
+  - first:
+      213: 4862108818186704724
+    second: Grass asset corregido_22
+  - first:
+      213: 6176624002526050629
+    second: Grass asset corregido_23
+  - first:
+      213: 5784434732720606794
+    second: Grass asset corregido_24
+  - first:
+      213: 2973066707509371065
+    second: Grass asset corregido_25
+  - first:
+      213: -5086496833510759074
+    second: Grass asset corregido_26
+  - first:
+      213: -565109083191925017
+    second: Grass asset corregido_27
+  - first:
+      213: -8566883243200797576
+    second: Grass asset corregido_28
+  - first:
+      213: -4540733759895749763
+    second: Grass asset corregido_29
+  - first:
+      213: 7021623187783924014
+    second: Grass asset corregido_30
+  - first:
+      213: -8802356192748359494
+    second: Grass asset corregido_31
+  - first:
+      213: 4952306676801810433
+    second: Grass asset corregido_32
+  - first:
+      213: -5049154489475954447
+    second: Grass asset corregido_33
+  - first:
+      213: -576567516768593759
+    second: Grass asset corregido_34
+  - first:
+      213: -6939339467207974926
+    second: Grass asset corregido_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Grass asset corregido_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 809
+        width: 276
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22b9d31a87368160800000000000000
+      internalID: 7027365334736286254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 601
+        width: 179
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb11927abbb76300800000000000000
+      internalID: 245371114175405040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_2
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 823
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f8fe6e371d3ee90800000000000000
+      internalID: -6997519100277715179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 823
+        width: 178
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebfb3108204d7ec0800000000000000
+      internalID: -3567624789243986965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_4
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 811
+        width: 163
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4ddcc1590f33520800000000000000
+      internalID: 2680750726439621848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_5
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 801
+        width: 122
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62bca64e164a65680800000000000000
+      internalID: -8766638884279104730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_6
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 801
+        width: 222
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5eb12f03a46e3f0800000000000000
+      internalID: -871927903768812076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_7
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 823
+        width: 202
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9c9713c8083efa0800000000000000
+      internalID: -5772628957745002053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 608
+        width: 278
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96b39e5a2dbfc870800000000000000
+      internalID: 8705384594403473051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_9
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 624
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f67b42f7af8f2fb0800000000000000
+      internalID: -4670356337072572682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_10
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 635
+        width: 166
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71e55424aa2d79a0800000000000000
+      internalID: -6233779424738287238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_11
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 622
+        width: 180
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3c9c98bd95f3e90800000000000000
+      internalID: -7043812492739755086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_12
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 617
+        width: 162
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8938c00a713821290800000000000000
+      internalID: -7921124657098620008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_13
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 411
+        width: 354
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee23b3ac975cbf00800000000000000
+      internalID: 1133877536463466208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_14
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 632
+        width: 202
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0738822a2c71d00800000000000000
+      internalID: 943436648677601507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 424
+        width: 278
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849f0ac5e2ecd3e60800000000000000
+      internalID: 7943732016269293896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 440
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c393317ae8a2e80800000000000000
+      internalID: -8202586923068736499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_17
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 443
+        width: 163
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37929811ee5893d20800000000000000
+      internalID: 3258783062922176883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_18
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1
+        width: 240
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6e3623e79dd2760800000000000000
+      internalID: 7434837695893071540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_19
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 435
+        width: 259
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebfca8084327d810800000000000000
+      internalID: 1789938169193233390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_20
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 443
+        width: 182
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df617e9b54618270800000000000000
+      internalID: 8250986336982495187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_21
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 445
+        width: 237
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171e068541bbe1b20800000000000000
+      internalID: 3107126488988705137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_22
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 249
+        width: 276
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4571057a53ea97340800000000000000
+      internalID: 4862108818186704724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_23
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 255
+        width: 163
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54977bd1ec6c7b550800000000000000
+      internalID: 6176624002526050629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_24
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 255
+        width: 180
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e4e3efdb0764050800000000000000
+      internalID: 5784434732720606794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_25
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 237
+        width: 171
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0e2a22b64724920800000000000000
+      internalID: 2973066707509371065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_26
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 193
+        width: 162
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55217f44122969b0800000000000000
+      internalID: -5086496833510759074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_27
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1
+        width: 163
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6affc68445828f0800000000000000
+      internalID: -565109083191925017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_28
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 255
+        width: 211
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87425c064115c1980800000000000000
+      internalID: -8566883243200797576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_29
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 275
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b3ac504b21cf0c0800000000000000
+      internalID: -4540733759895749763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_30
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 22
+        width: 164
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29b18e4611d17160800000000000000
+      internalID: 7021623187783924014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_31
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 77
+        width: 180
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab036c8fdafb7d580800000000000000
+      internalID: -8802356192748359494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_32
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 93
+        width: 157
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10031912fa02ab440800000000000000
+      internalID: 4952306676801810433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_33
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 242
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f887be4ebccde9b0800000000000000
+      internalID: -5049154489475954447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_34
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 103
+        width: 129
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a89af5f5ee9ff7f0800000000000000
+      internalID: -576567516768593759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass asset corregido_35
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 17
+        width: 243
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff5831558382bf90800000000000000
+      internalID: -6939339467207974926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Grass asset corregido_0: 7027365334736286254
+      Grass asset corregido_1: 245371114175405040
+      Grass asset corregido_10: -6233779424738287238
+      Grass asset corregido_11: -7043812492739755086
+      Grass asset corregido_12: -7921124657098620008
+      Grass asset corregido_13: 1133877536463466208
+      Grass asset corregido_14: 943436648677601507
+      Grass asset corregido_15: 7943732016269293896
+      Grass asset corregido_16: -8202586923068736499
+      Grass asset corregido_17: 3258783062922176883
+      Grass asset corregido_18: 7434837695893071540
+      Grass asset corregido_19: 1789938169193233390
+      Grass asset corregido_2: -6997519100277715179
+      Grass asset corregido_20: 8250986336982495187
+      Grass asset corregido_21: 3107126488988705137
+      Grass asset corregido_22: 4862108818186704724
+      Grass asset corregido_23: 6176624002526050629
+      Grass asset corregido_24: 5784434732720606794
+      Grass asset corregido_25: 2973066707509371065
+      Grass asset corregido_26: -5086496833510759074
+      Grass asset corregido_27: -565109083191925017
+      Grass asset corregido_28: -8566883243200797576
+      Grass asset corregido_29: -4540733759895749763
+      Grass asset corregido_3: -3567624789243986965
+      Grass asset corregido_30: 7021623187783924014
+      Grass asset corregido_31: -8802356192748359494
+      Grass asset corregido_32: 4952306676801810433
+      Grass asset corregido_33: -5049154489475954447
+      Grass asset corregido_34: -576567516768593759
+      Grass asset corregido_35: -6939339467207974926
+      Grass asset corregido_4: 2680750726439621848
+      Grass asset corregido_5: -8766638884279104730
+      Grass asset corregido_6: -871927903768812076
+      Grass asset corregido_7: -5772628957745002053
+      Grass asset corregido_8: 8705384594403473051
+      Grass asset corregido_9: -4670356337072572682
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
