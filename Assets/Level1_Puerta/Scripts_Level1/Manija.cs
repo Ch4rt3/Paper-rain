@@ -14,30 +14,29 @@ public class Manija : MonoBehaviour
         }
     }
 
-    // CAMBIADO A TRIGGER: Evita que los objetos se queden trabados en el aire
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        // 1. Si el objeto físico que cae tiene el Tag "Obstaculo"
-        if (other.CompareTag("Obstaculo") && !yaSeCayo)
-        {
-            yaSeCayo = true;
-            
-            // Le quitamos el modo "Is Trigger" para que cuando caiga al suelo SÍ choque de verdad
-            Collider2D miCollider = GetComponent<Collider2D>();
-            if (miCollider != null) miCollider.isTrigger = false;
-
-            if (rb != null)
-            {
-                rb.bodyType = RigidbodyType2D.Dynamic; // ¡Cae por gravedad de inmediato!
-            }
-        }
-    }
-
-    // Detecta cuando la manija toca el suelo real
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        // 1. Detecta el golpe sólido del objeto con el Tag "Obstaculo"
+        if (collision.gameObject.CompareTag("Obstaculo") && !yaSeCayo)
+        {
+            yaSeCayo = true;
+            if (rb != null)
+            {
+                rb.bodyType = RigidbodyType2D.Dynamic; // Cae la manija por gravedad
+            }
+        }
+
+        // 2. Cuando la manija cae y choca contra el suelo (Piso o Suelo)
         if (collision.gameObject.name.Contains("Piso") || collision.gameObject.CompareTag("Suelo"))
         {
+            // NUEVO: Busca el script independiente y activa el movimiento de la puerta
+            PuertaMovimiento movPuerta = Object.FindFirstObjectByType<PuertaMovimiento>();
+            if (movPuerta != null)
+            {
+                movPuerta.EjecutarApertura();
+            }
+
+            // Tu código original intacto que limpia los objetos de la escena
             TextSave1 textoObstaculo = Object.FindFirstObjectByType<TextSave1>();
             if (textoObstaculo != null)
             {
