@@ -61,8 +61,13 @@ public class TextBox : MonoBehaviour
 
         if (rbCaja != null && rbCaja.CompareTag("Caja"))
         {
-            // Le aplicamos una velocidad inmediata hacia arriba en el eje Y
-            rbCaja.linearVelocity = new Vector2(rbCaja.linearVelocity.x, fuerzaDeEmpuje);
+        // 1. Frenamos la caída para que no reste fuerza al rebote
+            rbCaja.linearVelocity = new Vector2(rbCaja.linearVelocity.x, 0f);
+
+        // 2. Aplicamos un impulso elástico vertical explosivo
+            rbCaja.AddForce(Vector2.up * fuerzaDeEmpuje, ForceMode2D.Impulse);
+    
+            Debug.Log("¡Caja alzada con un rebote óptimo!");
         }
     }
 }
