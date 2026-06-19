@@ -2,12 +2,10 @@ using UnityEngine;
 
 public class BulldozerCarry : MonoBehaviour
 {
-    public Transform carryPoint;
+    public float pushForce = 1f;
 
     private GameObject nearbyBlock;
-    private GameObject carriedBlock;
-
-    private Rigidbody2D carriedRb;
+    private Rigidbody2D nearbyRb;
 
     private Animator animator;
     private PlayerTransform playerTransform;
@@ -23,47 +21,17 @@ public class BulldozerCarry : MonoBehaviour
         if (playerTransform.currentForm != PlayerTransform.Form.Bulldozer)
             return;
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && nearbyRb != null)
         {
             animator.SetTrigger("LiftBlade");
 
-            if (carriedBlock == null)
-                PickUp();
-            else
-                Drop();
+            float direction = transform.localScale.x > 0 ? 1f : -1f;
+
+            nearbyRb.AddForce(
+                new Vector2(direction * pushForce, 0f),
+                ForceMode2D.Impulse
+            );
         }
-    }
-
-    void PickUp()
-    {
-        if (nearbyBlock == null)
-            return;
-
-        carriedBlock = nearbyBlock;
-        carriedRb = carriedBlock.GetComponent<Rigidbody2D>();
-
-        if (carriedRb != null)
-        {
-            carriedRb.linearVelocity = Vector2.zero;
-            carriedRb.angularVelocity = 0f;
-            carriedRb.bodyType = RigidbodyType2D.Kinematic;
-        }
-
-        carriedBlock.transform.SetParent(carryPoint);
-        carriedBlock.transform.localPosition = Vector3.zero;
-    }
-
-    void Drop()
-    {
-        if (carriedRb != null)
-        {
-            carriedRb.bodyType = RigidbodyType2D.Dynamic;
-        }
-
-        carriedBlock.transform.SetParent(null);
-
-        carriedBlock = null;
-        carriedRb = null;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -71,6 +39,7 @@ public class BulldozerCarry : MonoBehaviour
         if (other.CompareTag("Pushable"))
         {
             nearbyBlock = other.gameObject;
+            nearbyRb = other.GetComponent<Rigidbody2D>();
         }
     }
 
@@ -79,6 +48,7 @@ public class BulldozerCarry : MonoBehaviour
         if (other.CompareTag("Pushable"))
         {
             nearbyBlock = null;
+            nearbyRb = null;
         }
     }
 }
