@@ -2,41 +2,51 @@ using UnityEngine;
 
 public class Puerta : MonoBehaviour
 {
-    // Ahora apuntamos a tu nuevo script de la chimenea
-    private TextHistory1 scriptTexto; 
+    [Header("Configuración Visual")]
+    public Sprite spritePuertaAbierta; 
+
+    private TextHistory1 scriptTexto;
     private bool yaAviso = false;
+    private SpriteRenderer spriteRenderer;
+    private BoxCollider2D colisionador;
 
     void Start()
     {
-        // Busca automáticamente el nuevo componente en la escena
+        
         scriptTexto = FindObjectOfType<TextHistory1>();
+        
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        colisionador = GetComponent<BoxCollider2D>();
     }
 
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && !yaAviso)
         {
             yaAviso = true;
-            
+
             if (scriptTexto != null)
             {
-                scriptTexto.RegistrarPrimerChoque(); // Le avisa al nuevo script
+                
+                scriptTexto.RegistrarPrimerChoque();
+                Debug.Log("Puerta: ¡Primer golpe registrado! Historia activada.");
             }
         }
     }
 
-    public void AbrirPuertaConAnimacion()
+    
+    public void AbrirPuertaDirecto()
     {
-        Animator animator = GetComponent<Animator>();
-        if (animator != null)
+        if (spriteRenderer != null && spritePuertaAbierta != null)
         {
-            animator.SetTrigger("Abrir");
+            spriteRenderer.sprite = spritePuertaAbierta;
         }
-        
-        Collider2D colisionador = GetComponent<Collider2D>();
+
         if (colisionador != null)
         {
-            colisionador.enabled = false;
+            colisionador.enabled = false; // Desaparece el muro para dejar pasar la moto
         }
+        Debug.Log("Puerta: Abierta automáticamente desde el sensor.");
     }
 }

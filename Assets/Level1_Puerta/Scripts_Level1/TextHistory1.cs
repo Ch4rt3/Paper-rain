@@ -8,7 +8,7 @@ public class TextHistory1 : MonoBehaviour
     private bool motoYaChoco = false;
     private bool yaSeMostro = false;
     
-    // NUEVO: Candado que asegura que el poema ya fue visto
+    
     private bool poemaLeidoCompletamente = false;
 
     void Start()
@@ -28,10 +28,27 @@ public class TextHistory1 : MonoBehaviour
         motoYaChoco = true;
     }
 
-    // NUEVA FUNCIÓN: El segundo texto revisará esto para saber si puede aparecer
+    
     public bool VerificarSiPoemaFueLeido()
     {
         return poemaLeidoCompletamente;
+    }
+
+    
+    public bool VerificarSiMotoYaChoco()
+    {
+        return motoYaChoco;
+    }
+
+    public string ObtenerTextoActual()
+    {
+    
+        if (textMesh != null)
+        {
+            return textMesh.text.ToLower();
+        }
+    
+        return "";
     }
 
     public void MostrarTextoSuave()
@@ -61,7 +78,7 @@ public class TextHistory1 : MonoBehaviour
             yield return null;
         }
 
-        // Una vez que el Fade In termina y el texto es 100% visible, abrimos el candado
+        
         poemaLeidoCompletamente = true;
     }
 }

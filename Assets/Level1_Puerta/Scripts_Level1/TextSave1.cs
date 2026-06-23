@@ -5,39 +5,57 @@ using TMPro;
 public class TextSave1 : MonoBehaviour
 {
     private TextMeshProUGUI textMesh;
-    private Rigidbody2D rb;
 
     void Start()
     {
         textMesh = GetComponent<TextMeshProUGUI>();
-        rb = GetComponent<Rigidbody2D>();
-
-        if (textMesh != null) textMesh.enabled = false;
-        if (rb != null) rb.bodyType = RigidbodyType2D.Kinematic;
+        
+        if (textMesh != null)
+        {
+            
+            Color c = textMesh.color;
+            c.a = 0f;
+            textMesh.color = c;
+            
+           
+            textMesh.enabled = false;
+        }
     }
 
     public void DispararSecuenciaFinal()
     {
-        TextHistory1 textoChimenea = Object.FindFirstObjectByType<TextHistory1>();
+        TextHistory1 textoChimenea = Object.FindAnyObjectByType<TextHistory1>();
 
         if (textoChimenea != null)
         {
-            if (textoChimenea.VerificarSiPoemaFueLeido() == false) return;
+            if (textoChimenea.VerificarSiMotoYaChoco() == false) return;
+
+            
             textoChimenea.ApagarTexto();
         }
 
-        StartCoroutine(RutinaInicial());
+        
+        StartCoroutine(AparecerTextoSuave());
     }
 
-    private IEnumerator RutinaInicial()
+    
+    private IEnumerator AparecerTextoSuave()
     {
-        if (textMesh != null) textMesh.enabled = true;
-
-        yield return new WaitForSeconds(1f);
-
-        if (rb != null)
+        if (textMesh != null)
         {
-            rb.bodyType = RigidbodyType2D.Dynamic; // Cae el texto
+            textMesh.enabled = true; 
+            
+            float tiempo = 0f;
+            Color c = textMesh.color;
+
+            
+            while (tiempo < 1.0f)
+            {
+                tiempo += Time.deltaTime;
+                c.a = Mathf.Clamp01(tiempo / 1.0f);
+                textMesh.color = c;
+                yield return null; 
+            }
         }
     }
 }

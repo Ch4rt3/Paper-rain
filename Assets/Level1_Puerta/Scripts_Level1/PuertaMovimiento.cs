@@ -6,11 +6,11 @@ public class PuertaMovimiento : MonoBehaviour
 
     void Start()
     {
-        // Consigue el Animator del mismo objeto donde esté pegado
+        
         animator = GetComponent<Animator>();
     }
 
-    // Esta función pública la llamará la manija al tocar el piso
+    
     public void EjecutarApertura()
     {
         if (animator != null)
