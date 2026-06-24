@@ -7,8 +7,6 @@ public class TextHistory1 : MonoBehaviour
     private TextMeshProUGUI textMesh;
     private bool motoYaChoco = false;
     private bool yaSeMostro = false;
-    
-    
     private bool poemaLeidoCompletamente = false;
 
     void Start()

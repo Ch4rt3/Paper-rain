@@ -9,6 +9,7 @@ TagManager:
   - Pushable
   - Caja
   - Piso
+  - Llave
   layers:
   - Default
   - TransparentFX

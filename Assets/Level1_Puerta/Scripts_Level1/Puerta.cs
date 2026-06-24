@@ -1,52 +1,37 @@
+using System.Collections;
 using UnityEngine;
 
 public class Puerta : MonoBehaviour
 {
-    [Header("Configuración Visual")]
-    public Sprite spritePuertaAbierta; 
+    private Animator animator;
+    private Collider2D puertaCollider; // 🌟 Nueva variable para el colisionador
 
-    private TextHistory1 scriptTexto;
-    private bool yaAviso = false;
-    private SpriteRenderer spriteRenderer;
-    private BoxCollider2D colisionador;
+    [Header("Objetos a Desaparecer")]
+    public GameObject objetoLlave;    
+    public GameObject objetoManija;   
 
     void Start()
     {
-        
-        scriptTexto = FindObjectOfType<TextHistory1>();
-        
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        colisionador = GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
+        puertaCollider = GetComponent<Collider2D>(); // 🌟 Encuentra el Collider automático
     }
 
-    
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void AbrirPuerta()
     {
-        if (collision.gameObject.CompareTag("Player") && !yaAviso)
-        {
-            yaAviso = true;
+        // 1. Desaparece la llave y la manija de inmediato
+        if (objetoLlave != null) objetoLlave.SetActive(false);
+        if (objetoManija != null) objetoManija.SetActive(false);
 
-            if (scriptTexto != null)
-            {
-                
-                scriptTexto.RegistrarPrimerChoque();
-                Debug.Log("Puerta: ¡Primer golpe registrado! Historia activada.");
-            }
-        }
-    }
-
-    
-    public void AbrirPuertaDirecto()
-    {
-        if (spriteRenderer != null && spritePuertaAbierta != null)
+        // 🌟 2. APAGA EL MURO INVISIBLE: Desactiva el colisionador de la puerta
+        if (puertaCollider != null)
         {
-            spriteRenderer.sprite = spritePuertaAbierta;
+            puertaCollider.enabled = false;
         }
 
-        if (colisionador != null)
+        // 3. Activa tu animación original de apertura
+        if (animator != null)
         {
-            colisionador.enabled = false; // Desaparece el muro para dejar pasar la moto
+            animator.SetTrigger("Abrir");
         }
-        Debug.Log("Puerta: Abierta automáticamente desde el sensor.");
     }
 }
