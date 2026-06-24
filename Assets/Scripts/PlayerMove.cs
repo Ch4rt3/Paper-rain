@@ -10,20 +10,19 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float velocidadBulldozer = 2f;
 
     // Componentes del mismo Player
-    Rigidbody2D _body;
-    Animator _animator;
-    //Componente PlayerTransform
-    PlayerTransform _playerTransform; 
+    private Rigidbody2D _body;
+    private Animator _animator;
+    private PlayerTransform _playerTransform;
 
     // Acciones para el control
-    InputAction _moveAction;
+    private InputAction _moveAction;
+
+    public Vector2 CurrentMoveInput { get; private set; }
 
     void Awake()
     {
         _body = GetComponent<Rigidbody2D>();
         _animator = GetComponent<Animator>();
-
-        // Buscamos el script PlayerTransform ubicado en el objeto Player
         _playerTransform = GetComponent<PlayerTransform>();
 
         _moveAction = InputSystem.actions["Player/Move"];
@@ -31,22 +30,21 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
-        
-        // Si el jugador se está transformando, congelamos la velocidad en X y bloqueamos el movimiento
         if (_playerTransform != null && _playerTransform.isTransforming)
         {
+            CurrentMoveInput = Vector2.zero;
             _body.linearVelocityX = 0;
-            return; // Salimos del Update para que no lea más controles 
+            _animator.SetBool("IsMoving", false);
+            return;
         }
 
-        // 1. Obtener la velocidad correcta según el vehiculo actual
         float velocidadActual = ObtenerVelocidadPorForma();
 
-        // 2. Fórmula del Movimiento
         Vector2 move = _moveAction.ReadValue<Vector2>();
+        CurrentMoveInput = move;
+
         _body.linearVelocityX = move.x * velocidadActual;
 
-        // Girar sprite
         if (move.x != 0)
         {
             if (move.x > 0)
@@ -55,17 +53,15 @@ public class PlayerMove : MonoBehaviour
                 transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        // Activar animación de movimiento
         if (_animator != null)
         {
-            _animator.SetBool("IsMoving", move.x != 0);
+            _animator.SetBool("IsMoving", Mathf.Abs(move.x) > 0.01f);
         }
     }
 
-    // Revisa qué forma tiene PlayerTransform y devuelve su velocidad
     float ObtenerVelocidadPorForma()
     {
-        if (_playerTransform == null) return velocidadMoto; 
+        if (_playerTransform == null) return velocidadMoto;
 
         switch (_playerTransform.currentForm)
         {

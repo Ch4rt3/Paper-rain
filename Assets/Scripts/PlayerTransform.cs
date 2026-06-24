@@ -64,6 +64,8 @@ public class PlayerTransform : MonoBehaviour
 
         currentForm = targetForm;
 
+        animator.SetBool("IsPushing", false);
+
         Invoke(nameof(FinishTransformation), 0.66f);
         ApplyStats();
     }
@@ -75,13 +77,18 @@ public class PlayerTransform : MonoBehaviour
         switch (currentForm)
         {
             case Form.Moto:
-                animator.Play("MotoIdle");
+                rb.gravityScale = 2f;
+                rb.mass = 1f;
                 break;
+
             case Form.Bulldozer:
-                animator.Play("BulldozerIdle");
+                rb.gravityScale = 3f;
+                rb.mass = 20f;
                 break;
+
             case Form.Avion:
-                animator.Play("AvionIdle");
+                rb.gravityScale = 0.5f;
+                rb.mass = 0.5f;
                 break;
         }
     }
