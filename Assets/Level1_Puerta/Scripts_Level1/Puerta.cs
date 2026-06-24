@@ -18,17 +18,14 @@ public class Puerta : MonoBehaviour
 
     public void AbrirPuerta()
     {
-        // 1. Desaparece la llave y la manija de inmediato
         if (objetoLlave != null) objetoLlave.SetActive(false);
         if (objetoManija != null) objetoManija.SetActive(false);
 
-        // 🌟 2. APAGA EL MURO INVISIBLE: Desactiva el colisionador de la puerta
         if (puertaCollider != null)
         {
-            puertaCollider.enabled = false;
+            puertaCollider.enabled = false; 
         }
 
-        // 3. Activa tu animación original de apertura
         if (animator != null)
         {
             animator.SetTrigger("Abrir");
