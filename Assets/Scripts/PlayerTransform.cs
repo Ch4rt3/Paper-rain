@@ -87,7 +87,7 @@ public class PlayerTransform : MonoBehaviour
                 break;
 
             case Form.Avion:
-                rb.gravityScale = 0.5f;
+                rb.gravityScale = 0.2f;
                 rb.mass = 0.5f;
                 break;
         }

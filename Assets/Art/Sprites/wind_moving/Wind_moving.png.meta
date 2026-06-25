@@ -1,0 +1,1976 @@
+fileFormatVersion: 2
+guid: df5358f3df9b0cf4daf1343fb03ad8dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3609649202182593705
+    second: Wind_moving_0
+  - first:
+      213: 869065574639427585
+    second: Wind_moving_1
+  - first:
+      213: 6997775935017607557
+    second: Wind_moving_2
+  - first:
+      213: 7539221387524719454
+    second: Wind_moving_3
+  - first:
+      213: -8313780182448542229
+    second: Wind_moving_4
+  - first:
+      213: -5358813054032822627
+    second: Wind_moving_5
+  - first:
+      213: 6229906839914026466
+    second: Wind_moving_6
+  - first:
+      213: 4223335085920146808
+    second: Wind_moving_7
+  - first:
+      213: -2961275566711262332
+    second: Wind_moving_8
+  - first:
+      213: 1751654701973492472
+    second: Wind_moving_9
+  - first:
+      213: -2574020959443314970
+    second: Wind_moving_10
+  - first:
+      213: -1900163611701938617
+    second: Wind_moving_11
+  - first:
+      213: 6257256611670700309
+    second: Wind_moving_12
+  - first:
+      213: 8602983990821914536
+    second: Wind_moving_13
+  - first:
+      213: -870074910613823170
+    second: Wind_moving_14
+  - first:
+      213: 3693917752633216648
+    second: Wind_moving_15
+  - first:
+      213: 6605740849757629120
+    second: Wind_moving_16
+  - first:
+      213: -5812973507210096187
+    second: Wind_moving_17
+  - first:
+      213: 6500777558926460110
+    second: Wind_moving_18
+  - first:
+      213: -3711648877758644272
+    second: Wind_moving_19
+  - first:
+      213: -4475836076507644307
+    second: Wind_moving_20
+  - first:
+      213: -1366023804761767350
+    second: Wind_moving_21
+  - first:
+      213: -8765791347294233146
+    second: Wind_moving_22
+  - first:
+      213: 4647277318753050032
+    second: Wind_moving_23
+  - first:
+      213: -2546641301241129505
+    second: Wind_moving_24
+  - first:
+      213: -174658319557040396
+    second: Wind_moving_25
+  - first:
+      213: -8913995831228850132
+    second: Wind_moving_26
+  - first:
+      213: -8887287072661552561
+    second: Wind_moving_27
+  - first:
+      213: -4561242973868318497
+    second: Wind_moving_28
+  - first:
+      213: -9127842607248021993
+    second: Wind_moving_29
+  - first:
+      213: 2719407555060748542
+    second: Wind_moving_30
+  - first:
+      213: 1912987877515860655
+    second: Wind_moving_31
+  - first:
+      213: -6340612926182768550
+    second: Wind_moving_32
+  - first:
+      213: 3211368030510153400
+    second: Wind_moving_33
+  - first:
+      213: 4147090118490546705
+    second: Wind_moving_34
+  - first:
+      213: -7659673761560877854
+    second: Wind_moving_35
+  - first:
+      213: 307233084688656464
+    second: Wind_moving_36
+  - first:
+      213: 6965694528456547803
+    second: Wind_moving_37
+  - first:
+      213: -5391401282452407861
+    second: Wind_moving_38
+  - first:
+      213: 774418364386088072
+    second: Wind_moving_39
+  - first:
+      213: -4080221831488488976
+    second: Wind_moving_40
+  - first:
+      213: 6617795720247693218
+    second: Wind_moving_41
+  - first:
+      213: 1296690502887991823
+    second: Wind_moving_42
+  - first:
+      213: -336817777147461989
+    second: Wind_moving_43
+  - first:
+      213: -5963890954878843947
+    second: Wind_moving_44
+  - first:
+      213: 2384605143279961029
+    second: Wind_moving_45
+  - first:
+      213: -4163977330276827199
+    second: Wind_moving_46
+  - first:
+      213: 3083902263763053275
+    second: Wind_moving_47
+  - first:
+      213: -8067992556716396493
+    second: Wind_moving_48
+  - first:
+      213: -1287782254033675071
+    second: Wind_moving_49
+  - first:
+      213: -4289693581731533411
+    second: Wind_moving_50
+  - first:
+      213: -4443543499068987106
+    second: Wind_moving_51
+  - first:
+      213: -2883182396996794176
+    second: Wind_moving_52
+  - first:
+      213: -7783810602679106724
+    second: Wind_moving_53
+  - first:
+      213: -8803041471773922913
+    second: Wind_moving_54
+  - first:
+      213: -8386188614007814463
+    second: Wind_moving_55
+  - first:
+      213: 5986800161909450799
+    second: Wind_moving_56
+  - first:
+      213: -2253224317854734988
+    second: Wind_moving_57
+  - first:
+      213: 6353920891071667632
+    second: Wind_moving_58
+  - first:
+      213: 5274255392197692556
+    second: Wind_moving_59
+  - first:
+      213: 5164137607831816011
+    second: Wind_moving_60
+  - first:
+      213: 7717008714445047981
+    second: Wind_moving_61
+  - first:
+      213: 6726730881685019154
+    second: Wind_moving_62
+  - first:
+      213: -4627221350814464876
+    second: Wind_moving_63
+  - first:
+      213: 4399816575438004774
+    second: Wind_moving_64
+  - first:
+      213: -7079068137401937371
+    second: Wind_moving_65
+  - first:
+      213: -5861955948871415542
+    second: Wind_moving_66
+  - first:
+      213: -8447318016649398817
+    second: Wind_moving_67
+  - first:
+      213: 4934619498038297045
+    second: Wind_moving_68
+  - first:
+      213: -7229449928178428490
+    second: Wind_moving_69
+  - first:
+      213: 2791739700506754619
+    second: Wind_moving_70
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wind_moving_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 643
+        width: 170
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac9ddb13dc081230800000000000000
+      internalID: 3609649202182593705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 617
+        width: 148
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10067ee198a8f0c00800000000000000
+      internalID: 869065574639427585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_2
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 580
+        width: 314
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581608813281d1160800000000000000
+      internalID: 6997775935017607557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_3
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 661
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53407e48e1b0a860800000000000000
+      internalID: 7539221387524719454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_4
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 637
+        width: 332
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bede87ce8f48f9c80800000000000000
+      internalID: -8313780182448542229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_5
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 650
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9eb5a86beba1a5b0800000000000000
+      internalID: -5358813054032822627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_6
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 673
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e51ad07343157650800000000000000
+      internalID: 6229906839914026466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_7
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 668
+        width: 108
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875d6bb62ec4c9a30800000000000000
+      internalID: 4223335085920146808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_8
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 634
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483b124cf8f67e6d0800000000000000
+      internalID: -2961275566711262332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_9
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 656
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2d548bba02f4810800000000000000
+      internalID: 1751654701973492472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 571
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e698fb339d374cd0800000000000000
+      internalID: -2574020959443314970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_11
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 583
+        width: 157
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746f16d334341a5e0800000000000000
+      internalID: -1900163611701938617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_12
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 573
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511b8176cbd36d650800000000000000
+      internalID: 6257256611670700309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_13
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 623
+        width: 242
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7005deb50f36770800000000000000
+      internalID: 8602983990821914536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_14
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 617
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3122e88a7fdce3f0800000000000000
+      internalID: -870074910613823170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 603
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e4633ff9e634330800000000000000
+      internalID: 3693917752633216648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 587
+        width: 218
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca271cdd4e4cab50800000000000000
+      internalID: 6605740849757629120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_17
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 606
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c15cf5c46b245fa0800000000000000
+      internalID: -5812973507210096187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_18
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 573
+        width: 245
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec484ab4fb6673a50800000000000000
+      internalID: 6500777558926460110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_19
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 603
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dff736c2039d7cc0800000000000000
+      internalID: -3711648877758644272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 544
+        width: 262
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e32ea6dc2a2e1c0800000000000000
+      internalID: -4475836076507644307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 555
+        width: 158
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42827a4698ea0de0800000000000000
+      internalID: -1366023804761767350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_22
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 547
+        width: 80
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd95597637a95680800000000000000
+      internalID: -8765791347294233146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_23
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 551
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd510d59127e7040800000000000000
+      internalID: 4647277318753050032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_24
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 537
+        width: 300
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd51f2daa3388acd0800000000000000
+      internalID: -2546641301241129505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_25
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 550
+        width: 253
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f66cb90f2d739df0800000000000000
+      internalID: -174658319557040396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_26
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 481
+        width: 767
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20aa4615002b4480800000000000000
+      internalID: -8913995831228850132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_27
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 532
+        width: 150
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4246198e730aa480800000000000000
+      internalID: -8887287072661552561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_28
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 487
+        width: 105
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd025588ea533b0c0800000000000000
+      internalID: -4561242973868318497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_29
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 495
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7166e459283635180800000000000000
+      internalID: -9127842607248021993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_30
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 509
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0d8e663c64db520800000000000000
+      internalID: 2719407555060748542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_31
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 494
+        width: 425
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa16f2d65c4c8a10800000000000000
+      internalID: 1912987877515860655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_32
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 492
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5040ac332e9108a0800000000000000
+      internalID: -6340612926182768550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_33
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 451
+        width: 157
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be7a9d8532119c20800000000000000
+      internalID: 3211368030510153400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_34
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 473
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11269249d7c6d8930800000000000000
+      internalID: 4147090118490546705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_35
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 453
+        width: 171
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4a8caeb4f53b590800000000000000
+      internalID: -7659673761560877854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_36
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 448
+        width: 178
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0586d1cdcd2834400800000000000000
+      internalID: 307233084688656464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_37
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 470
+        width: 199
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddd88e844e1ba060800000000000000
+      internalID: 6965694528456547803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_38
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 440
+        width: 258
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9b6d53915ed25b0800000000000000
+      internalID: -5391401282452407861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_39
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 426
+        width: 214
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88495cc36694fba00800000000000000
+      internalID: 774418364386088072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_40
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 459
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9b559bcd32067c0800000000000000
+      internalID: -4080221831488488976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_41
+      rect:
+        serializedVersion: 2
+        x: 1550
+        y: 444
+        width: 106
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afc67d152227db50800000000000000
+      internalID: 6617795720247693218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_42
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 429
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ae2486425cef110800000000000000
+      internalID: 1296690502887991823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_43
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 430
+        width: 190
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9eb6172402635bf0800000000000000
+      internalID: -336817777147461989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_44
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 426
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3084b46c00c3da0800000000000000
+      internalID: -5963890954878843947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_45
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 370
+        width: 374
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c385ce5eb1d71120800000000000000
+      internalID: 2384605143279961029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_46
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 429
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cff1180ea49636c0800000000000000
+      internalID: -4163977330276827199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_47
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 366
+        width: 244
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdaae9905c83cca20800000000000000
+      internalID: 3083902263763053275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_48
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 419
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3307c66048bb80090800000000000000
+      internalID: -8067992556716396493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_49
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 351
+        width: 307
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc5548ecd0e02ee0800000000000000
+      internalID: -1287782254033675071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 385
+        width: 67
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d6e994a62f774c0800000000000000
+      internalID: -4289693581731533411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_51
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 381
+        width: 276
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e192ff10bbc5552c0800000000000000
+      internalID: -4443543499068987106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_52
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 408
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8c85cb2e0ecf7d0800000000000000
+      internalID: -2883182396996794176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_53
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 370
+        width: 238
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53846c4f795af390800000000000000
+      internalID: -7783810602679106724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_54
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 334
+        width: 148
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9922e30c6055d580800000000000000
+      internalID: -8803041471773922913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_55
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 359
+        width: 209
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c683a233e54e9b80800000000000000
+      internalID: -8386188614007814463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_56
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 377
+        width: 98
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f282ddf1703651350800000000000000
+      internalID: 5986800161909450799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_57
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 363
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4752ff6cb60fab0e0800000000000000
+      internalID: -2253224317854734988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_58
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 160
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd924bc269ad2850800000000000000
+      internalID: 6353920891071667632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_59
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 340
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cc1a2c55be13940800000000000000
+      internalID: 5274255392197692556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_60
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 315
+        width: 69
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b470d062bc3baa740800000000000000
+      internalID: 5164137607831816011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_61
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 288
+        width: 242
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da847111a82581b60800000000000000
+      internalID: 7717008714445047981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_62
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 297
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a5c7ed8162a5d50800000000000000
+      internalID: 6726730881685019154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_63
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 270
+        width: 282
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494c99f82bec8cfb0800000000000000
+      internalID: -4627221350814464876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_64
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 299
+        width: 58
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622abd73dd94f0d30800000000000000
+      internalID: 4399816575438004774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_65
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 314
+        width: 166
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5221f59190912cd90800000000000000
+      internalID: -7079068137401937371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_66
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 275
+        width: 442
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09088a5f1626aea0800000000000000
+      internalID: -5861955948871415542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_67
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 306
+        width: 138
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5fad8050915ca80800000000000000
+      internalID: -8447318016649398817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_68
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 279
+        width: 187
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d10a4ae94a4b7440800000000000000
+      internalID: 4934619498038297045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_69
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 282
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b59375f795dbab90800000000000000
+      internalID: -7229449928178428490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_moving_70
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 271
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e7f0267704eb620800000000000000
+      internalID: 2791739700506754619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wind_moving_0: 3609649202182593705
+      Wind_moving_1: 869065574639427585
+      Wind_moving_10: -2574020959443314970
+      Wind_moving_11: -1900163611701938617
+      Wind_moving_12: 6257256611670700309
+      Wind_moving_13: 8602983990821914536
+      Wind_moving_14: -870074910613823170
+      Wind_moving_15: 3693917752633216648
+      Wind_moving_16: 6605740849757629120
+      Wind_moving_17: -5812973507210096187
+      Wind_moving_18: 6500777558926460110
+      Wind_moving_19: -3711648877758644272
+      Wind_moving_2: 6997775935017607557
+      Wind_moving_20: -4475836076507644307
+      Wind_moving_21: -1366023804761767350
+      Wind_moving_22: -8765791347294233146
+      Wind_moving_23: 4647277318753050032
+      Wind_moving_24: -2546641301241129505
+      Wind_moving_25: -174658319557040396
+      Wind_moving_26: -8913995831228850132
+      Wind_moving_27: -8887287072661552561
+      Wind_moving_28: -4561242973868318497
+      Wind_moving_29: -9127842607248021993
+      Wind_moving_3: 7539221387524719454
+      Wind_moving_30: 2719407555060748542
+      Wind_moving_31: 1912987877515860655
+      Wind_moving_32: -6340612926182768550
+      Wind_moving_33: 3211368030510153400
+      Wind_moving_34: 4147090118490546705
+      Wind_moving_35: -7659673761560877854
+      Wind_moving_36: 307233084688656464
+      Wind_moving_37: 6965694528456547803
+      Wind_moving_38: -5391401282452407861
+      Wind_moving_39: 774418364386088072
+      Wind_moving_4: -8313780182448542229
+      Wind_moving_40: -4080221831488488976
+      Wind_moving_41: 6617795720247693218
+      Wind_moving_42: 1296690502887991823
+      Wind_moving_43: -336817777147461989
+      Wind_moving_44: -5963890954878843947
+      Wind_moving_45: 2384605143279961029
+      Wind_moving_46: -4163977330276827199
+      Wind_moving_47: 3083902263763053275
+      Wind_moving_48: -8067992556716396493
+      Wind_moving_49: -1287782254033675071
+      Wind_moving_5: -5358813054032822627
+      Wind_moving_50: -4289693581731533411
+      Wind_moving_51: -4443543499068987106
+      Wind_moving_52: -2883182396996794176
+      Wind_moving_53: -7783810602679106724
+      Wind_moving_54: -8803041471773922913
+      Wind_moving_55: -8386188614007814463
+      Wind_moving_56: 5986800161909450799
+      Wind_moving_57: -2253224317854734988
+      Wind_moving_58: 6353920891071667632
+      Wind_moving_59: 5274255392197692556
+      Wind_moving_6: 6229906839914026466
+      Wind_moving_60: 5164137607831816011
+      Wind_moving_61: 7717008714445047981
+      Wind_moving_62: 6726730881685019154
+      Wind_moving_63: -4627221350814464876
+      Wind_moving_64: 4399816575438004774
+      Wind_moving_65: -7079068137401937371
+      Wind_moving_66: -5861955948871415542
+      Wind_moving_67: -8447318016649398817
+      Wind_moving_68: 4934619498038297045
+      Wind_moving_69: -7229449928178428490
+      Wind_moving_7: 4223335085920146808
+      Wind_moving_70: 2791739700506754619
+      Wind_moving_8: -2961275566711262332
+      Wind_moving_9: 1751654701973492472
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
