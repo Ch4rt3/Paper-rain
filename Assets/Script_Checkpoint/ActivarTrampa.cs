@@ -34,7 +34,7 @@ public class ActivarTrampa : MonoBehaviour
             }
 
             // ⏱️ ¡Aquí ocurre la magia! El script espera 2 segundos antes de pasar a la siguiente piña
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(0.05f);
         }
     }
 }
