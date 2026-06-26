@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_1.unity
     guid: 45dfd03e90085b744b7a3e599af8735a
+  - enabled: 1
+    path: Assets/Scenes/Scripts Check_Dead.unity
+    guid: 4729ffeaacf5c54468a535e6b122e6b1
+  - enabled: 1
+    path: Assets/Scenes/Escena Scripts.unity
+    guid: 0147a11136af01e49b2fef837c35d853
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
