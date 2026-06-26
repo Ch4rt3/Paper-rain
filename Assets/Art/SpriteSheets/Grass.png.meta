@@ -130,12 +130,12 @@ TextureImporter:
         width: 42
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: 79d946fd79a9c4de0800000000000000
       internalID: -1347532211411968617
@@ -152,12 +152,15 @@ TextureImporter:
         width: 418
         height: 420
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 208, y: 209}
+        - {x: -208, y: -209}
+        - {x: 204, y: -209}
+      tessellationDetail: 0
       bones: []
       spriteID: 26b0860faae26e590800000000000000
       internalID: -7645372005702169758
@@ -174,12 +177,15 @@ TextureImporter:
         width: 420
         height: 420
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 209, y: 209}
+        - {x: -209, y: -209}
+        - {x: 209, y: -209}
+      tessellationDetail: 0
       bones: []
       spriteID: f8a5966019ef3af50800000000000000
       internalID: 6891631753638271631
@@ -196,12 +202,12 @@ TextureImporter:
         width: 413
         height: 420
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
       spriteID: aef03152e26199600800000000000000
       internalID: 475435623110610922
@@ -213,7 +219,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d9156d82c34a7a44984e11030467bcb2
     internalID: 0
     vertices: []
     indices: 
