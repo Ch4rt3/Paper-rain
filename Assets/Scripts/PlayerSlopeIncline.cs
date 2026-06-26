@@ -7,7 +7,7 @@ public class PlayerSlopeIncline : MonoBehaviour
     [SerializeField] private LayerMask conQueEsSuelo;
     // Largo del rayo que lanzamos hacia abajo para detectar el suelo.
     [SerializeField] private float largoDelRayo = 1.5f;
-    [SerializeField] private float velocidadRotacion = 10f;
+    [SerializeField] private float velocidadRotacion = 30f;
     // Componente PlayerTransform para verificar el vehiculo actual
     private PlayerTransform _playerTransform;
 
