@@ -1686,6 +1686,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.156
       objectReference: {fileID: 0}
+    - target: {fileID: 7630987536099862880, guid: e5137f049d61f9d42a5fc332f9ef6b93, type: 3}
+      propertyPath: direction
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7849178214447647568, guid: e5137f049d61f9d42a5fc332f9ef6b93, type: 3}
       propertyPath: m_Name
       value: Wind_moving
@@ -16589,6 +16593,7 @@ GameObject:
   - component: {fileID: 2091483884}
   - component: {fileID: 2091483883}
   - component: {fileID: 2091483893}
+  - component: {fileID: 2091483894}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -16828,7 +16833,7 @@ Transform:
   m_GameObject: {fileID: 2091483882}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.31, y: -1.97, z: 0}
+  m_LocalPosition: {x: 3.45, y: -1.66, z: 0}
   m_LocalScale: {x: 0.7808, y: 0.7808, z: 0.7808}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16848,6 +16853,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71f3d69a2600b5540929c7ace530637b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ControladorSpawn
+--- !u!114 &2091483894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091483882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58ea95ef8cc89aa49a3db6ae3f50e42c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFlight
 --- !u!1 &2105500326
 GameObject:
   m_ObjectHideFlags: 0
