@@ -8,11 +8,11 @@ public class ControladorSpawn : MonoBehaviour
     {
         if (!yaReubicado && DataHolder.instance != null && DataHolder.instance.tieneCheckpoint)
         {
-            // Mueve el Transform principal
+            
             transform.position = DataHolder.instance.posicionCheckpoint;
 
             
-            // Lo buscamos el objeto
+            
             Rigidbody2D rb = GetComponent<Rigidbody2D>() ?? GetComponentInChildren<Rigidbody2D>();
             
             if (rb != null)

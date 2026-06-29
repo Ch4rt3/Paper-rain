@@ -5,7 +5,7 @@ public class DataHolder : MonoBehaviour
 {
     public static DataHolder instance;
 
-    // VARIABLES PARA EL CHECKPOINT
+    
     public Vector3 posicionCheckpoint;
     public bool tieneCheckpoint = false;
 
