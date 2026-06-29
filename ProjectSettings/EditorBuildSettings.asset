@@ -14,10 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Scripts Check_Dead.unity
     guid: 4729ffeaacf5c54468a535e6b122e6b1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Escena Scripts.unity
     guid: 0147a11136af01e49b2fef837c35d853
   m_configObjects:
