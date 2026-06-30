@@ -29,12 +29,12 @@ public class ActivarTrampa : MonoBehaviour
         {
             if (piña != null)
             {
-                piña.gravityScale = 2f; 
+                piña.gravityScale = 3f; 
                 Debug.Log("Cayó una piña.");
             }
 
             
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
         }
     }
 }
