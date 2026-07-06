@@ -8,7 +8,7 @@ public class SensorMuerte : MonoBehaviour
     {
         if (other.CompareTag("Player") || (other.transform.parent != null && other.transform.parent.CompareTag("Player")))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            TriggerDeath(other.gameObject);
         }
     }
 
@@ -19,7 +19,7 @@ public class SensorMuerte : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") || (collision.transform.parent != null && collision.transform.parent.CompareTag("Player")))
         {
             Debug.Log("¡La manzana aplastó a la moto!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            TriggerDeath(collision.gameObject);
         }
         
         
@@ -27,6 +27,24 @@ public class SensorMuerte : MonoBehaviour
         {
             Debug.Log("La manzana tocó el suelo y desapareció.");
             Destroy(gameObject); 
+        }
+    }
+
+    private void TriggerDeath(GameObject playerObj)
+    {
+        PlayerDeath playerDeath = playerObj.GetComponent<PlayerDeath>();
+        if (playerDeath == null && playerObj.transform.parent != null)
+        {
+            playerDeath = playerObj.transform.parent.GetComponent<PlayerDeath>();
+        }
+
+        if (playerDeath != null)
+        {
+            playerDeath.Die();
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

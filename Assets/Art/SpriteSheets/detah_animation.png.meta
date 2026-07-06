@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 8fae3d97459f911489e9579f165a368f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2864412534041452239
+    second: detah_animation_0
+  - first:
+      213: 55411716861944076
+    second: detah_animation_1
+  - first:
+      213: -8762843976085293446
+    second: detah_animation_2
+  - first:
+      213: 8282666840774805111
+    second: detah_animation_3
+  - first:
+      213: 4701685663368946709
+    second: detah_animation_4
+  - first:
+      213: -8491400424302860542
+    second: detah_animation_5
+  - first:
+      213: 5270379791149119503
+    second: detah_animation_6
+  - first:
+      213: 7629550777760438294
+    second: detah_animation_7
+  - first:
+      213: 7693394320121782795
+    second: detah_animation_8
+  - first:
+      213: 7150884514414893066
+    second: detah_animation_9
+  - first:
+      213: 2298088056636552432
+    second: detah_animation_10
+  - first:
+      213: -8342750935525517231
+    second: detah_animation_11
+  - first:
+      213: -2952478312338752880
+    second: detah_animation_12
+  - first:
+      213: -7264725199616476189
+    second: detah_animation_13
+  - first:
+      213: -7526878267321869306
+    second: detah_animation_14
+  - first:
+      213: -6195117720983079681
+    second: detah_animation_15
+  - first:
+      213: 5055138983740712821
+    second: detah_animation_16
+  - first:
+      213: 6317237088819643069
+    second: detah_animation_17
+  - first:
+      213: 4164679461046370337
+    second: detah_animation_18
+  - first:
+      213: -2270492811589996372
+    second: detah_animation_19
+  - first:
+      213: 520503015008152644
+    second: detah_animation_20
+  - first:
+      213: 757078445005640753
+    second: detah_animation_21
+  - first:
+      213: -4792540584098603812
+    second: detah_animation_22
+  - first:
+      213: -3237074694786802567
+    second: detah_animation_23
+  - first:
+      213: 7765196046603170112
+    second: detah_animation_24
+  - first:
+      213: -3479372447787512628
+    second: detah_animation_25
+  - first:
+      213: 8692329030884570169
+    second: detah_animation_26
+  - first:
+      213: -4787614850168627682
+    second: detah_animation_27
+  - first:
+      213: 1235354882385226322
+    second: detah_animation_28
+  - first:
+      213: 7645058817266204606
+    second: detah_animation_29
+  - first:
+      213: 5089998267174165225
+    second: detah_animation_30
+  - first:
+      213: 1207167691196777596
+    second: detah_animation_31
+  - first:
+      213: -4965463449717548286
+    second: detah_animation_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: detah_animation_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 549
+        width: 188
+        height: 259
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13168420aff8f38d0800000000000000
+      internalID: -2864412534041452239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 551
+        width: 182
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0163f3b9acd4c000800000000000000
+      internalID: 55411716861944076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_2
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 559
+        width: 169
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76b34fc4df146680800000000000000
+      internalID: -8762843976085293446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_3
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 561
+        width: 161
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7760a45bb91f1f270800000000000000
+      internalID: 8282666840774805111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_4
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 567
+        width: 160
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51427a2433ebf3140800000000000000
+      internalID: 4701685663368946709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_5
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 566
+        width: 141
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207a3dfad4c782a80800000000000000
+      internalID: -8491400424302860542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_6
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 215
+        width: 153
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0837d21f76242940800000000000000
+      internalID: 5270379791149119503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 221
+        width: 210
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6185730620c91e960800000000000000
+      internalID: 7629550777760438294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_9
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 216
+        width: 184
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a089a8f249b0d3360800000000000000
+      internalID: 7150884514414893066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_11
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 223
+        width: 156
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1589176d938983c80800000000000000
+      internalID: -8342750935525517231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_23
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 215
+        width: 154
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c93d147b99313d0800000000000000
+      internalID: -3237074694786802567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_31
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 218
+        width: 144
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74cc1a8e98b0c010800000000000000
+      internalID: 1207167691196777596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 791c3fc45f79ff745a7c284ee4bb986d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      detah_animation_0: -2864412534041452239
+      detah_animation_1: 55411716861944076
+      detah_animation_10: 2298088056636552432
+      detah_animation_11: -8342750935525517231
+      detah_animation_12: -2952478312338752880
+      detah_animation_13: -7264725199616476189
+      detah_animation_14: -7526878267321869306
+      detah_animation_15: -6195117720983079681
+      detah_animation_16: 5055138983740712821
+      detah_animation_17: 6317237088819643069
+      detah_animation_18: 4164679461046370337
+      detah_animation_19: -2270492811589996372
+      detah_animation_2: -8762843976085293446
+      detah_animation_20: 520503015008152644
+      detah_animation_21: 757078445005640753
+      detah_animation_22: -4792540584098603812
+      detah_animation_23: -3237074694786802567
+      detah_animation_24: 7765196046603170112
+      detah_animation_25: -3479372447787512628
+      detah_animation_26: 8692329030884570169
+      detah_animation_27: -4787614850168627682
+      detah_animation_28: 1235354882385226322
+      detah_animation_29: 7645058817266204606
+      detah_animation_3: 8282666840774805111
+      detah_animation_30: 5089998267174165225
+      detah_animation_31: 1207167691196777596
+      detah_animation_32: -4965463449717548286
+      detah_animation_4: 4701685663368946709
+      detah_animation_5: -8491400424302860542
+      detah_animation_6: 5270379791149119503
+      detah_animation_7: 7629550777760438294
+      detah_animation_8: 7693394320121782795
+      detah_animation_9: 7150884514414893066
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

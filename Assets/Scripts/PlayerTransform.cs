@@ -110,4 +110,12 @@ public class PlayerTransform : MonoBehaviour
                 break;
         }
     }
+
+    public void ForceResetToMoto()
+    {
+        currentForm = Form.Moto;
+        isTransforming = false;
+        if (animator != null) animator.SetBool("IsPushing", false);
+        FinishTransformation();
+    }
 }
