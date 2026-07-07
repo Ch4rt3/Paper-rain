@@ -49,6 +49,6 @@ public class ControladorIntro : MonoBehaviour
     public void IniciarJuego()
     {
         Debug.Log("Saltando introducción / Empezando juego...");
-        SceneManager.LoadScene("Escenas DiseñoNivel"); 
+        SceneManager.LoadScene("Level_1"); 
     }
 }
