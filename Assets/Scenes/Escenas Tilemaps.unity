@@ -795,7 +795,7 @@ Transform:
   m_GameObject: {fileID: 1201353594}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.799774, y: 2.8504024, z: 0}
+  m_LocalPosition: {x: 25.88, y: 2.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1020,7 +1020,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2f090f4dc63600468a1a2368738e43a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulldozerCarry
-  pushForce: 1
+  pushCheckDistance: 0.15
+  pushCheckSize: {x: 0.35, y: 0.9}
+  pushSpeed: 2
+  bladePushDistance: 1.5
+  bladePushSpeed: 3
 --- !u!114 &1639309924
 MonoBehaviour:
   m_ObjectHideFlags: 0
