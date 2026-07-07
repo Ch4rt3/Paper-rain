@@ -6,7 +6,7 @@ public class ObjetoCheckpoint : MonoBehaviour
     {
          
         Debug.Log("¡Trigger detectado! Tocado por: " + other.name);
-
+        AudioManager.Instance.PlaySFX("checkpoint"); 
         if (other.CompareTag("Player") || (other.transform.parent != null && other.transform.parent.CompareTag("Player")))
         {
             DataHolder.instance.posicionCheckpoint = transform.position;

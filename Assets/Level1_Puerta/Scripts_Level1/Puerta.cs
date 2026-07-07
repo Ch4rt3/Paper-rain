@@ -29,6 +29,7 @@ public class Puerta : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger("Abrir");
+            AudioManager.Instance.PlaySFX("puerta");
         }
     }
 }

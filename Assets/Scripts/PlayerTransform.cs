@@ -62,6 +62,8 @@ public class PlayerTransform : MonoBehaviour
         else if (currentForm == Form.Avion && targetForm == Form.Bulldozer)
             animator.Play("BulldozerToAvionReverse");
 
+        AudioManager.Instance.PlaySFX("transformacion");
+
         currentForm = targetForm;
 
         animator.SetBool("IsPushing", false);

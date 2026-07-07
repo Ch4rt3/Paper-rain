@@ -49,7 +49,7 @@ public class PlayerDeath : MonoBehaviour
 
         // Reproducimos la animación de muerte
         if (_animator != null) _animator.SetTrigger("Death");
-
+        AudioManager.Instance.PlaySFX("muerte"); 
         // Esperamos que termine la animación
         Invoke(nameof(Respawn), 1f); // Cambia 1f por la duración de tu animación
     }

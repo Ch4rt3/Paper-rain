@@ -16,6 +16,7 @@ public class PuertaMovimiento : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger("Abrir"); 
+            AudioManager.Instance.PlaySFX("puerta");
             Debug.Log("¡PuertaMovimiento activó el trigger 'Abrir' exitosamente!");
         }
         else

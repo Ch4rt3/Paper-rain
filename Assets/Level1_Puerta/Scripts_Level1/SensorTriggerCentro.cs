@@ -40,7 +40,8 @@ public class SensorTriggerCentro : MonoBehaviour
         // 2. Le da la orden al libro de caer inmediatamente
         if (mesaAnimator != null)
         {
-            mesaAnimator.SetTrigger("Caer"); 
+            mesaAnimator.SetTrigger("Caer");
+            AudioManager.Instance.PlaySFX("libro"); 
         }
 
         yield return null; // Requisito obligatorio para mantener la corrutina activa
