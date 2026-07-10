@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: e301cee6d4947db45b3686cc5701f755
+guid: 3435274233670d2448cb6ca98f5ce46e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5259205503957073362
-    second: Llegada a la ciudad_0
+      213: 8930691916819698061
+    second: reset_sound_0
+  - first:
+      213: -5378005287424016334
+    second: reset_sound_1
+  - first:
+      213: -4710995256347567573
+    second: reset_sound_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Llegada a la ciudad_0
+      name: reset_sound_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1460
-        height: 1077
+        x: 357
+        y: 506
+        width: 368
+        height: 392
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ddf3289a837cf840800000000000000
-      internalID: 5259205503957073362
+      spriteID: d819d744bf030fb70800000000000000
+      internalID: 8930691916819698061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset_sound_1
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 507
+        width: 361
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2304bea5fac7d55b0800000000000000
+      internalID: -5378005287424016334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reset_sound_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 97
+        width: 354
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a5ad636ce2f9eb0800000000000000
+      internalID: -4710995256347567573
       vertices: []
       indices: 
       edges: []
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Llegada a la ciudad_0: 5259205503957073362
+      reset_sound_0: 8930691916819698061
+      reset_sound_1: -5378005287424016334
+      reset_sound_2: -4710995256347567573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
