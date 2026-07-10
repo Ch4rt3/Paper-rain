@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: b49117d0036a6684b8a34bcdc3e7e1c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7813078681601762301
+    second: Asfalto y tierra_0
+  - first:
+      213: 8370065805588398892
+    second: Asfalto y tierra_1
+  - first:
+      213: -4402005964601181857
+    second: Asfalto y tierra_2
+  - first:
+      213: -1806040045154126562
+    second: Asfalto y tierra_3
+  - first:
+      213: -977143605468729779
+    second: Asfalto y tierra_4
+  - first:
+      213: -3047348361579744842
+    second: Asfalto y tierra_5
+  - first:
+      213: -6151747691801964937
+    second: Asfalto y tierra_6
+  - first:
+      213: 2950668035799589161
+    second: Asfalto y tierra_7
+  - first:
+      213: -5520852355528583132
+    second: Asfalto y tierra_8
+  - first:
+      213: -9138217193781481491
+    second: Asfalto y tierra_9
+  - first:
+      213: -3730253713012118210
+    second: Asfalto y tierra_10
+  - first:
+      213: -8161345244542139285
+    second: Asfalto y tierra_11
+  - first:
+      213: -152530976436423855
+    second: Asfalto y tierra_12
+  - first:
+      213: 6714386153171454931
+    second: Asfalto y tierra_13
+  - first:
+      213: 4664961792383653410
+    second: Asfalto y tierra_14
+  - first:
+      213: -6808013614783151246
+    second: Asfalto y tierra_15
+  - first:
+      213: -3832162822697070621
+    second: Asfalto y tierra_16
+  - first:
+      213: 3423441356532927106
+    second: Asfalto y tierra_17
+  - first:
+      213: -7468479658505447807
+    second: Asfalto y tierra_18
+  - first:
+      213: -5638038759157169982
+    second: Asfalto y tierra_19
+  - first:
+      213: 4493169812214764924
+    second: Asfalto y tierra_20
+  - first:
+      213: 3369386507572060704
+    second: Asfalto y tierra_21
+  - first:
+      213: -1286263607834701553
+    second: Asfalto y tierra_22
+  - first:
+      213: -2175857778589923400
+    second: Asfalto y tierra_23
+  - first:
+      213: 6040174556044313824
+    second: Asfalto y tierra_24
+  - first:
+      213: -7150782307963536291
+    second: Asfalto y tierra_25
+  - first:
+      213: -8157808156283563686
+    second: Asfalto y tierra_26
+  - first:
+      213: -8725768889439061773
+    second: Asfalto y tierra_27
+  - first:
+      213: -6943674647410949458
+    second: Asfalto y tierra_28
+  - first:
+      213: -4355893208825076987
+    second: Asfalto y tierra_29
+  - first:
+      213: -5712008543553835127
+    second: Asfalto y tierra_30
+  - first:
+      213: 3622175296946765209
+    second: Asfalto y tierra_31
+  - first:
+      213: -1866653806181127863
+    second: Asfalto y tierra_32
+  - first:
+      213: -4493452663183251596
+    second: Asfalto y tierra_33
+  - first:
+      213: -6782350093097388470
+    second: Asfalto y tierra_34
+  - first:
+      213: -2511281316614560639
+    second: Asfalto y tierra_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Asfalto y tierra_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 832
+        width: 174
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 1, z: 0, w: 1}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3ec0b5aa1ad6c60800000000000000
+      internalID: 7813078681601762301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 827
+        width: 190
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c238db0f082782470800000000000000
+      internalID: 8370065805588398892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 817
+        width: 177
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59bbc4e5eee8e2c0800000000000000
+      internalID: -4402005964601181857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_3
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 830
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e153572d528afe6e0800000000000000
+      internalID: -1806040045154126562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_4
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 824
+        width: 182
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4eed75611d7072f0800000000000000
+      internalID: -977143605468729779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_5
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 784
+        width: 207
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1bb298fc4a5b5d0800000000000000
+      internalID: -3047348361579744842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_6
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 824
+        width: 210
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e8052511a90aaa0800000000000000
+      internalID: -6151747691801964937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 640
+        width: 188
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9212febf1f0e2f820800000000000000
+      internalID: 2950668035799589161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 461
+        width: 190
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428175b880ef163b0800000000000000
+      internalID: -5520852355528583132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 655
+        width: 189
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defa94ce0e78e2180800000000000000
+      internalID: -9138217193781481491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 479
+        width: 187
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3da4d1030a7b3cc0800000000000000
+      internalID: -3730253713012118210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 641
+        width: 178
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b640eb1adb31dbe80800000000000000
+      internalID: -8161345244542139285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_12
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 465
+        width: 178
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153734492e912edf0800000000000000
+      internalID: -152530976436423855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_13
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 469
+        width: 198
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db0698c1aa4e2d50800000000000000
+      internalID: 6714386153171454931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_14
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 653
+        width: 195
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2261ccdb8064db040800000000000000
+      internalID: 4664961792383653410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_15
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 465
+        width: 188
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273c3d010b31581a0800000000000000
+      internalID: -6808013614783151246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_16
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 527
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efcea7673c61dac0800000000000000
+      internalID: -3832162822697070621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_17
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 551
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ac68d86c1828f20800000000000000
+      internalID: 3423441356532927106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_18
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 527
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1865d8ef151aa5890800000000000000
+      internalID: -7468479658505447807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_19
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 467
+        width: 105
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c08d82ce99a1c1b0800000000000000
+      internalID: -5638038759157169982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_20
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 573
+        width: 207
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75d19c6322fa5e30800000000000000
+      internalID: 4493169812214764924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_21
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 463
+        width: 123
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022a3d64d2772ce20800000000000000
+      internalID: 3369386507572060704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_22
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 645
+        width: 274
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0110874016462ee0800000000000000
+      internalID: -1286263607834701553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_23
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 496
+        width: 170
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b78069e0eccdc1e0800000000000000
+      internalID: -2175857778589923400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 253
+        width: 190
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4cf5aa1c203d350800000000000000
+      internalID: 6040174556044313824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_25
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 221
+        height: 252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c7fab906153cc90800000000000000
+      internalID: -7150782307963536291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_26
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 281
+        width: 199
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a511fea24b4a9ce80800000000000000
+      internalID: -8157808156283563686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_27
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1
+        width: 360
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f874d81d67d7e680800000000000000
+      internalID: -8725768889439061773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_28
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 265
+        width: 178
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea24f2582bc13af90800000000000000
+      internalID: -6943674647410949458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_29
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 5
+        width: 264
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503e1708432cc83c0800000000000000
+      internalID: -4355893208825076987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_30
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 275
+        width: 202
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f2a7f3e7edab0b0800000000000000
+      internalID: -5712008543553835127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_31
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 249
+        width: 186
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99df4b0dd3d844230800000000000000
+      internalID: 3622175296946765209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_32
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 0
+        width: 277
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94961f3d0405816e0800000000000000
+      internalID: -1866653806181127863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_33
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 253
+        width: 210
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477ede33c9c04a1c0800000000000000
+      internalID: -4493452663183251596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_34
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1
+        width: 243
+        height: 248
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46b796568040e1a0800000000000000
+      internalID: -6782350093097388470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asfalto y tierra_35
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 5
+        width: 287
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1842d18a2f2262dd0800000000000000
+      internalID: -2511281316614560639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 940c3777cde9b0c4baf29b7241caad79
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Asfalto y tierra_0: 7813078681601762301
+      Asfalto y tierra_1: 8370065805588398892
+      Asfalto y tierra_10: -3730253713012118210
+      Asfalto y tierra_11: -8161345244542139285
+      Asfalto y tierra_12: -152530976436423855
+      Asfalto y tierra_13: 6714386153171454931
+      Asfalto y tierra_14: 4664961792383653410
+      Asfalto y tierra_15: -6808013614783151246
+      Asfalto y tierra_16: -3832162822697070621
+      Asfalto y tierra_17: 3423441356532927106
+      Asfalto y tierra_18: -7468479658505447807
+      Asfalto y tierra_19: -5638038759157169982
+      Asfalto y tierra_2: -4402005964601181857
+      Asfalto y tierra_20: 4493169812214764924
+      Asfalto y tierra_21: 3369386507572060704
+      Asfalto y tierra_22: -1286263607834701553
+      Asfalto y tierra_23: -2175857778589923400
+      Asfalto y tierra_24: 6040174556044313824
+      Asfalto y tierra_25: -7150782307963536291
+      Asfalto y tierra_26: -8157808156283563686
+      Asfalto y tierra_27: -8725768889439061773
+      Asfalto y tierra_28: -6943674647410949458
+      Asfalto y tierra_29: -4355893208825076987
+      Asfalto y tierra_3: -1806040045154126562
+      Asfalto y tierra_30: -5712008543553835127
+      Asfalto y tierra_31: 3622175296946765209
+      Asfalto y tierra_32: -1866653806181127863
+      Asfalto y tierra_33: -4493452663183251596
+      Asfalto y tierra_34: -6782350093097388470
+      Asfalto y tierra_35: -2511281316614560639
+      Asfalto y tierra_4: -977143605468729779
+      Asfalto y tierra_5: -3047348361579744842
+      Asfalto y tierra_6: -6151747691801964937
+      Asfalto y tierra_7: 2950668035799589161
+      Asfalto y tierra_8: -5520852355528583132
+      Asfalto y tierra_9: -9138217193781481491
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
