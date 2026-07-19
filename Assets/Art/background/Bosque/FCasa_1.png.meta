@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a9fbdc479940fe241aef0b8f1de10825
+guid: 637aca8ab9ae98d42ad347b72cd69b46
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3483737917969717473
-    second: Rampa1 (2)_0
+      213: -4349904807271823844
+    second: ChatGPT Image 18 jul 2026, 23_14_29_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rampa1 (2)_0
+      name: ChatGPT Image 18 jul 2026, 23_14_29_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1536
-        height: 1024
+        width: 1448
+        height: 1086
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f172bdc32d647afc0800000000000000
-      internalID: -3483737917969717473
+      spriteID: c168cc3ef9802a3c0800000000000000
+      internalID: -4349904807271823844
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a73b33619b1d44c49965e624f93b6423
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rampa1 (2)_0: -3483737917969717473
+      ChatGPT Image 18 jul 2026, 23_14_29_0: -4349904807271823844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
