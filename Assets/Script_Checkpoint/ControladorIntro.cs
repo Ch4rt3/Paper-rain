@@ -20,17 +20,17 @@ public class ControladorIntro : MonoBehaviour
 
     void Start()
     {
-        // 1. Apagamos absolutamente todas las viñetas al iniciar
+        // 1. Apagar todas las imagenes al iniciar
         foreach (GameObject vineta in vinetas)
         {
             if (vineta != null) vineta.SetActive(false);
         }
 
-        // 2. Mostramos el primer grupo de 4 imágenes de forma secuencial
+        // 2. Mostramos las primeras 4 imágenes
         MostrarSiguienteGrupo();
     }
 
-    // Esta función maneja la lógica de agrupar de 4 en 4
+   
     public void AvanzarCinematica()
     {
         // Si la corutina del grupo anterior sigue corriendo, la detenemos para evitar conflictos
@@ -46,8 +46,8 @@ public class ControladorIntro : MonoBehaviour
             return;
         }
 
-        // Apagamos las 4 imágenes anteriores para limpiar la pantalla antes del nuevo grupo
-        // (Buscamos las 4 que acabamos de pasar)
+        // Apagar las 4 imágenes anteriores
+        // Nuevas 4 imagenes
         int inicioAnterior = indiceActual - 4;
         for (int i = inicioAnterior; i < indiceActual; i++)
         {
@@ -57,7 +57,7 @@ public class ControladorIntro : MonoBehaviour
             }
         }
 
-        // Iniciamos la secuencia para el nuevo bloque de 4 imágenes
+        // Iniciar el nuevo bloque
         MostrarSiguienteGrupo();
     }
 
@@ -68,7 +68,7 @@ public class ControladorIntro : MonoBehaviour
 
     IEnumerator AparecerGrupoSecuencial()
     {
-        // Calculamos hasta dónde debe llegar este grupo (máximo 4 imágenes o el final de la lista)
+        // Maximo 4 imagenes)
         int limiteGrupo = indiceActual + 4;
 
         while (indiceActual < limiteGrupo && indiceActual < vinetas.Length)
@@ -78,10 +78,10 @@ public class ControladorIntro : MonoBehaviour
                 vinetas[indiceActual].SetActive(true);
             }
 
-            indiceActual++; // Avanzamos el contador global
+            indiceActual++; 
 
-            // Esperamos 2 segundos antes de que aparezca la siguiente del mismo grupo
-            // Solo esperamos si no es la última imagen del grupo actual
+            // Esperar 2 segundos
+            
             if (indiceActual < limiteGrupo && indiceActual < vinetas.Length)
             {
                 yield return new WaitForSeconds(tiempoEspera);
