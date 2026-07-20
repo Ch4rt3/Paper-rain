@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bef40e06077383049bc3755dce8475e8
+guid: 4edb7bbfe35f9d442b81db9f7e38fc66
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4412164869933323507
-    second: Bandera_0
+      213: -3003453049861279717
+    second: FONDO_INTRO_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bandera_0
+      name: FONDO_INTRO_0
       rect:
         serializedVersion: 2
-        x: 227
-        y: 1
-        width: 844
-        height: 1023
+        x: 0
+        y: 0
+        width: 1053
+        height: 740
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f455d292982b3d30800000000000000
-      internalID: 4412164869933323507
+      spriteID: b1074773d579156d0800000000000000
+      internalID: -3003453049861279717
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4c978fa2bc9ebe648aafbcb28d0b789e
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bandera_0: 4412164869933323507
+      FONDO_INTRO_0: -3003453049861279717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bef40e06077383049bc3755dce8475e8
+guid: 72723af85e506c64a98000c1a2ddea41
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4412164869933323507
-    second: Bandera_0
+      213: 1236890216035971891
+    second: C1_8_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bandera_0
+      name: C1_8_0
       rect:
         serializedVersion: 2
-        x: 227
-        y: 1
-        width: 844
-        height: 1023
+        x: 0
+        y: 0
+        width: 604
+        height: 607
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f455d292982b3d30800000000000000
-      internalID: 4412164869933323507
+      spriteID: 333faf029115a2110800000000000000
+      internalID: 1236890216035971891
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4c978fa2bc9ebe648aafbcb28d0b789e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bandera_0: 4412164869933323507
+      C1_8_0: 1236890216035971891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

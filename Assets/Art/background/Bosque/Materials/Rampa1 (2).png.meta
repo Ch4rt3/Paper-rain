@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bef40e06077383049bc3755dce8475e8
+guid: a9fbdc479940fe241aef0b8f1de10825
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4412164869933323507
-    second: Bandera_0
+      213: -3483737917969717473
+    second: Rampa1 (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bandera_0
+      name: Rampa1 (2)_0
       rect:
         serializedVersion: 2
-        x: 227
-        y: 1
-        width: 844
-        height: 1023
+        x: 0
+        y: 0
+        width: 1536
+        height: 1024
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f455d292982b3d30800000000000000
-      internalID: 4412164869933323507
+      spriteID: f172bdc32d647afc0800000000000000
+      internalID: -3483737917969717473
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4c978fa2bc9ebe648aafbcb28d0b789e
+    spriteID: a73b33619b1d44c49965e624f93b6423
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bandera_0: 4412164869933323507
+      Rampa1 (2)_0: -3483737917969717473
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
