@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b04b8e54a15f5d84c862dff979f4f367
+guid: c377b542e45ede84baa3696d37860d13
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2601866710669943740
-    second: Captura de pantalla 2026-07-15 221516-Photoroom_0
+      213: 3051677150723219092
+    second: Letrero_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Captura de pantalla 2026-07-15 221516-Photoroom_0
+      name: Letrero_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 44c9a9d030054ebd0800000000000000
-      internalID: -2601866710669943740
+      spriteID: 49e980a333cb95a20800000000000000
+      internalID: 3051677150723219092
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Captura de pantalla 2026-07-15 221516-Photoroom_0: -2601866710669943740
+      Letrero_0: 3051677150723219092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

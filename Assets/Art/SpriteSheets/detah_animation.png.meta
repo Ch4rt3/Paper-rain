@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8fae3d97459f911489e9579f165a368f
+guid: 4c56fdb1224aae649bc822269d603bd6
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -212,12 +212,12 @@ TextureImporter:
       name: detah_animation_0
       rect:
         serializedVersion: 2
-        x: 91
+        x: 0
         y: 549
-        width: 188
-        height: 259
+        width: 279
+        height: 475
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,7 +239,7 @@ TextureImporter:
         width: 182
         height: 238
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -261,7 +261,7 @@ TextureImporter:
         width: 169
         height: 206
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -283,7 +283,7 @@ TextureImporter:
         width: 161
         height: 166
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -305,7 +305,7 @@ TextureImporter:
         width: 160
         height: 151
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,10 +324,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1323
         y: 566
-        width: 141
-        height: 138
+        width: 213
+        height: 458
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: detah_animation_6
       rect:
         serializedVersion: 2
-        x: 86
-        y: 215
-        width: 153
-        height: 150
+        x: 0
+        y: 0
+        width: 239
+        height: 365
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -366,12 +366,12 @@ TextureImporter:
       name: detah_animation_7
       rect:
         serializedVersion: 2
-        x: 310
-        y: 221
-        width: 210
-        height: 142
+        x: 341
+        y: 228
+        width: 143
+        height: 133
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -385,15 +385,37 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: detah_animation_8
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 319
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02eddf6f5d64ca60800000000000000
+      internalID: 7693394320121782795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: detah_animation_9
       rect:
         serializedVersion: 2
-        x: 582
-        y: 216
-        width: 184
-        height: 164
+        x: 606
+        y: 298
+        width: 69
+        height: 82
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -407,15 +429,37 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: detah_animation_10
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 310
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4b36669e274ef10800000000000000
+      internalID: 2298088056636552432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: detah_animation_11
       rect:
         serializedVersion: 2
-        x: 836
-        y: 223
-        width: 156
-        height: 150
+        x: 877
+        y: 312
+        width: 48
+        height: 61
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -429,15 +473,257 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: detah_animation_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 295
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09af00a2e90b607d0800000000000000
+      internalID: -2952478312338752880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_13
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 312
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebf70ecbe28e2b90800000000000000
+      internalID: -7264725199616476189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_14
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 278
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c1ca058182b8790800000000000000
+      internalID: -7526878267321869306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_15
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 250
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff473138145860aa0800000000000000
+      internalID: -6195117720983079681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_16
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 280
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57728185f16772640800000000000000
+      internalID: 5055138983740712821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_17
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 269
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2840189a55ba750800000000000000
+      internalID: 6317237088819643069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_18
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 299
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120c80787e9ebc930800000000000000
+      internalID: 4164679461046370337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_19
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 224
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0b91441d69d70e0800000000000000
+      internalID: -2270492811589996372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_20
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 227
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ca4120cb2393700800000000000000
+      internalID: 520503015008152644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_21
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 250
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1349aa5a5dea18a00800000000000000
+      internalID: 757078445005640753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_22
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 259
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdcd8211bb97d7db0800000000000000
+      internalID: -4792540584098603812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: detah_animation_23
       rect:
         serializedVersion: 2
         x: 1065
-        y: 215
-        width: 154
-        height: 122
+        y: 233
+        width: 42
+        height: 36
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -451,15 +737,169 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: detah_animation_24
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 265
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041bc01a9a483cb60800000000000000
+      internalID: 7765196046603170112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_25
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 223
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc08587139c6bfc0800000000000000
+      internalID: -3479372447787512628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_26
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 216
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934b0bc133b51a870800000000000000
+      internalID: 8692329030884570169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_27
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 224
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e505ed8a9fe8db0800000000000000
+      internalID: -4787614850168627682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_28
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 221
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25aad1868bcd42110800000000000000
+      internalID: 1235354882385226322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_29
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 218
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfbe123d74b81a60800000000000000
+      internalID: 7645058817266204606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: detah_animation_30
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 218
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea154eb47e43a640800000000000000
+      internalID: 5089998267174165225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: detah_animation_31
       rect:
         serializedVersion: 2
         x: 1301
-        y: 218
-        width: 144
-        height: 98
+        y: 227
+        width: 32
+        height: 27
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -472,11 +912,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: detah_animation_32
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 217
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b5666fc41271bb0800000000000000
+      internalID: -4965463449717548286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 791c3fc45f79ff745a7c284ee4bb986d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
