@@ -1,34 +1,10 @@
 fileFormatVersion: 2
-guid: ba8944c9faa9cf54381d03cbb2d0bc0b
+guid: fe1eb734b31af024ca6a1736ad4ba543
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6830742577625560735
-    second: Bulldozer_idle_0
-  - first:
-      213: -763806471477202875
-    second: Bulldozer_idle_1
-  - first:
-      213: -1167855063078043767
-    second: Bulldozer_idle_2
-  - first:
-      213: 7527089439851237266
-    second: Bulldozer_idle_3
-  - first:
-      213: -7440276899533297172
-    second: Bulldozer_idle_4
-  - first:
-      213: -6833145963778267994
-    second: Bulldozer_idle_5
-  - first:
-      213: 6197879589227509445
-    second: Bulldozer_idle_6
-  - first:
-      213: -3216337118019436098
-    second: Bulldozer_idle_7
-  - first:
-      213: -7019417901447513266
-    second: Bulldozer_idle_8
+      213: -7395409420587093016
+    second: Avion_idle (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 140
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,199 +113,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bulldozer_idle_0
+      name: Avion_idle (2)_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 398
-        width: 271
-        height: 142
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1
+        y: 586
+        width: 326
+        height: 199
+      alignment: 9
+      pivot: {x: 0.65271693, y: 0.37491044}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f96f18bfe2cabce50800000000000000
-      internalID: 6830742577625560735
+      spriteID: 8e33455805a3e5990800000000000000
+      internalID: -7395409420587093016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_1
+      name: Avion_idle (2)_1
       rect:
         serializedVersion: 2
-        x: 387
-        y: 398
-        width: 272
-        height: 153
+        x: 338
+        y: 579
+        width: 323
+        height: 206
       alignment: 9
-      pivot: {x: 0.5, y: 0.44440496}
+      pivot: {x: 0.6412907, y: 0.3388814}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 540f47e9f0a6665f0800000000000000
-      internalID: -763806471477202875
+      spriteID: 8265772f35f9e4841892d8d47cdffc01
+      internalID: -1519119423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_2
+      name: Avion_idle (2)_2
       rect:
         serializedVersion: 2
-        x: 730
-        y: 398
-        width: 271
-        height: 155
+        x: 673
+        y: 581
+        width: 325
+        height: 204
       alignment: 9
-      pivot: {x: 0.5, y: 0.44512212}
+      pivot: {x: 0.6659525, y: 0.3067959}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 98f7718f102facfe0800000000000000
-      internalID: -1167855063078043767
+      spriteID: 9daf3b8592284024ab0da231776ae8cb
+      internalID: -11387591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_3
+      name: Avion_idle (2)_3
       rect:
         serializedVersion: 2
-        x: 45
-        y: 198
-        width: 270
-        height: 180
+        x: 1010
+        y: 586
+        width: 319
+        height: 188
       alignment: 9
-      pivot: {x: 0.5, y: 0.38186052}
+      pivot: {x: 0.6755765, y: 0.3565573}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 29f4dee17f7957860800000000000000
-      internalID: 7527089439851237266
+      spriteID: 32803ad0f573afe4aa4843aa5a790204
+      internalID: 296361935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_4
+      name: Avion_idle (2)_4
       rect:
         serializedVersion: 2
-        x: 389
-        y: 201
-        width: 268
-        height: 185
+        x: 1342
+        y: 575
+        width: 323
+        height: 199
       alignment: 9
-      pivot: {x: 0.49206543, y: 0.35056943}
+      pivot: {x: 0.6541355, y: 0.33321393}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ce9e5c48493deb890800000000000000
-      internalID: -7440276899533297172
+      spriteID: 5c22fcab112b285449ea4173424aceb8
+      internalID: -153659952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_5
+      name: Avion_idle (2)_5
       rect:
         serializedVersion: 2
-        x: 733
-        y: 200
-        width: 270
-        height: 194
+        x: 0
+        y: 171
+        width: 327
+        height: 181
       alignment: 9
-      pivot: {x: 0.5, y: 0.35750195}
+      pivot: {x: 0.6712811, y: 0.3624705}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6a42a9213f9cb21a0800000000000000
-      internalID: -6833145963778267994
+      spriteID: 135e4aef9afaae14fac2ccf9ac340409
+      internalID: -1407078747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_6
+      name: Avion_idle (2)_6
       rect:
         serializedVersion: 2
-        x: 734
-        y: 7
-        width: 271
-        height: 194
+        x: 345
+        y: 141
+        width: 314
+        height: 186
       alignment: 9
-      pivot: {x: 0.5, y: 0.3465406}
+      pivot: {x: 0.6849789, y: 0.32155675}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5c6bc8c06aa430650800000000000000
-      internalID: 6197879589227509445
+      spriteID: 83a17b8586273f14998e04fe2f9d5476
+      internalID: -168477401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_7
+      name: Avion_idle (2)_7
       rect:
         serializedVersion: 2
-        x: 44
-        y: 7
-        width: 268
-        height: 191
+        x: 673
+        y: 127
+        width: 316
+        height: 193
       alignment: 9
-      pivot: {x: 0.5, y: 0.3218631}
+      pivot: {x: 0.67067885, y: 0.39251795}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: eb14c8a9e664d53d0800000000000000
-      internalID: -3216337118019436098
+      spriteID: 180b3e5139569754590eaa31d83c6d57
+      internalID: -1646716294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_8
+      name: Avion_idle (2)_8
       rect:
         serializedVersion: 2
-        x: 388
-        y: 7
-        width: 268
-        height: 191
+        x: 1007
+        y: 132
+        width: 320
+        height: 182
       alignment: 9
-      pivot: {x: 0.5, y: 0.3552638}
+      pivot: {x: 0.68151057, y: 0.34043053}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e4bf33eeb94069e90800000000000000
-      internalID: -7019417901447513266
+      spriteID: 421051d6bb221ef4b8f417c49d3d5f53
+      internalID: -1291893167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Avion_idle (2)_9
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 142
+        width: 319
+        height: 177
+      alignment: 9
+      pivot: {x: 0.6560682, y: 0.39452168}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6b3e68c9300c742975372851fb8549
+      internalID: 1146326290
       vertices: []
       indices: 
       edges: []
@@ -338,7 +336,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bb81cb9836d6d6c45bd82b48d5eee335
+    spriteID: 4f93f502af8a1a340b7c97465ba278e5
     internalID: 0
     vertices: []
     indices: 
@@ -348,15 +346,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bulldozer_idle_0: 6830742577625560735
-      Bulldozer_idle_1: -763806471477202875
-      Bulldozer_idle_2: -1167855063078043767
-      Bulldozer_idle_3: 7527089439851237266
-      Bulldozer_idle_4: -7440276899533297172
-      Bulldozer_idle_5: -6833145963778267994
-      Bulldozer_idle_6: 6197879589227509445
-      Bulldozer_idle_7: -3216337118019436098
-      Bulldozer_idle_8: -7019417901447513266
+      Avion_idle (2)_0: -7395409420587093016
+      Avion_idle (2)_1: -1519119423
+      Avion_idle (2)_2: -11387591
+      Avion_idle (2)_3: 296361935
+      Avion_idle (2)_4: -153659952
+      Avion_idle (2)_5: -1407078747
+      Avion_idle (2)_6: -168477401
+      Avion_idle (2)_7: -1646716294
+      Avion_idle (2)_8: -1291893167
+      Avion_idle (2)_9: 1146326290
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -15,7 +15,7 @@ public class ControladorIntro : MonoBehaviour
     [Header("Nombre de la Escena a Cargar")]
     public string nombreSiguienteEscena = "Level_1";
 
-    private int indiceActual = 0; // Controla qué imagen toca activar
+    private int paginaActual = 0; // Controla en qué grupo de 4 estamos
     private Coroutine corutinaActual;
 
     void Start()
@@ -26,30 +26,22 @@ public class ControladorIntro : MonoBehaviour
             if (vineta != null) vineta.SetActive(false);
         }
 
-        // 2. Mostramos las primeras 4 imágenes
+        // 2. Mostramos el primer grupo
+        paginaActual = 0;
         MostrarSiguienteGrupo();
     }
-
    
     public void AvanzarCinematica()
     {
-        // Si la corutina del grupo anterior sigue corriendo, la detenemos para evitar conflictos
+        // Si la corutina del grupo anterior sigue corriendo, la detenemos
         if (corutinaActual != null)
         {
             StopCoroutine(corutinaActual);
         }
 
-        // Si ya no quedan más imágenes en la lista completa, pasamos al nivel
-        if (indiceActual >= vinetas.Length)
-        {
-            IniciarJuego();
-            return;
-        }
-
-        // Apagar las 4 imágenes anteriores
-        // Nuevas 4 imagenes
-        int inicioAnterior = indiceActual - 4;
-        for (int i = inicioAnterior; i < indiceActual; i++)
+        // Apagar el grupo actual (las 4 imágenes de la página actual)
+        int inicioActual = paginaActual * 4;
+        for (int i = inicioActual; i < inicioActual + 4; i++)
         {
             if (i >= 0 && i < vinetas.Length && vinetas[i] != null)
             {
@@ -57,7 +49,17 @@ public class ControladorIntro : MonoBehaviour
             }
         }
 
-        // Iniciar el nuevo bloque
+        // Avanzar a la siguiente página
+        paginaActual++;
+
+        // Si ya no quedan más páginas, pasamos al nivel
+        if (paginaActual * 4 >= vinetas.Length)
+        {
+            IniciarJuego();
+            return;
+        }
+
+        // Iniciar el nuevo bloque de 4
         MostrarSiguienteGrupo();
     }
 
@@ -68,21 +70,18 @@ public class ControladorIntro : MonoBehaviour
 
     IEnumerator AparecerGrupoSecuencial()
     {
-        // Maximo 4 imagenes)
-        int limiteGrupo = indiceActual + 4;
+        int inicio = paginaActual * 4;
+        int limiteGrupo = inicio + 4;
 
-        while (indiceActual < limiteGrupo && indiceActual < vinetas.Length)
+        for (int i = inicio; i < limiteGrupo && i < vinetas.Length; i++)
         {
-            if (vinetas[indiceActual] != null)
+            if (vinetas[i] != null)
             {
-                vinetas[indiceActual].SetActive(true);
+                vinetas[i].SetActive(true);
             }
-
-            indiceActual++; 
-
-            // Esperar 2 segundos
             
-            if (indiceActual < limiteGrupo && indiceActual < vinetas.Length)
+            // Esperar antes de mostrar la siguiente imagen (excepto si es la última del grupo)
+            if (i + 1 < limiteGrupo && i + 1 < vinetas.Length)
             {
                 yield return new WaitForSeconds(tiempoEspera);
             }

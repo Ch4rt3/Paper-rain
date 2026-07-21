@@ -1,34 +1,43 @@
 fileFormatVersion: 2
-guid: ba8944c9faa9cf54381d03cbb2d0bc0b
+guid: f52209a3091f45945ba72dd58e8950a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6830742577625560735
-    second: Bulldozer_idle_0
+      213: 8587544810923219452
+    second: moto_idle_0
   - first:
-      213: -763806471477202875
-    second: Bulldozer_idle_1
+      213: 7501595373775423092
+    second: moto_idle_1
   - first:
-      213: -1167855063078043767
-    second: Bulldozer_idle_2
+      213: 8834419198390966941
+    second: moto_idle_2
   - first:
-      213: 7527089439851237266
-    second: Bulldozer_idle_3
+      213: -7279583561502429479
+    second: moto_idle_3
   - first:
-      213: -7440276899533297172
-    second: Bulldozer_idle_4
+      213: 6618014517989129364
+    second: moto_idle_4
   - first:
-      213: -6833145963778267994
-    second: Bulldozer_idle_5
+      213: -4317034452362338365
+    second: moto_idle_5
   - first:
-      213: 6197879589227509445
-    second: Bulldozer_idle_6
+      213: 278115956710416913
+    second: moto_idle_6
   - first:
-      213: -3216337118019436098
-    second: Bulldozer_idle_7
+      213: 5842961424097627074
+    second: moto_idle_7
   - first:
-      213: -7019417901447513266
-    second: Bulldozer_idle_8
+      213: 5956193108888414838
+    second: moto_idle_8
+  - first:
+      213: -7462673333224993178
+    second: moto_idle_9
+  - first:
+      213: 7637616841903848894
+    second: moto_idle_10
+  - first:
+      213: 5054549474781648827
+    second: moto_idle_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 90
+  spritePixelsToUnits: 140
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -137,13 +146,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bulldozer_idle_0
+      name: moto_idle_0
       rect:
         serializedVersion: 2
-        x: 44
-        y: 398
-        width: 271
-        height: 142
+        x: 147
+        y: 704
+        width: 300
+        height: 203
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,184 +161,184 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f96f18bfe2cabce50800000000000000
-      internalID: 6830742577625560735
+      spriteID: cf9d3dbb1861d2770800000000000000
+      internalID: 8587544810923219452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_1
+      name: moto_idle_2
       rect:
         serializedVersion: 2
-        x: 387
+        x: 592
+        y: 703
+        width: 326
+        height: 195
+      alignment: 9
+      pivot: {x: 0.54901874, y: 0.49999937}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a1cf444792a9a70800000000000000
+      internalID: 8834419198390966941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_idle_3
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 703
+        width: 363
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5792398, y: 0.46722004}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9deefd7d159b9fa90800000000000000
+      internalID: -7279583561502429479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_idle_4
+      rect:
+        serializedVersion: 2
+        x: 100
         y: 398
-        width: 272
-        height: 153
+        width: 356
+        height: 196
       alignment: 9
-      pivot: {x: 0.5, y: 0.44440496}
+      pivot: {x: 0.5718203, y: 0.49999985}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 540f47e9f0a6665f0800000000000000
-      internalID: -763806471477202875
+      spriteID: 49cbe1fe329e7db50800000000000000
+      internalID: 6618014517989129364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_2
+      name: moto_idle_6
       rect:
         serializedVersion: 2
-        x: 730
+        x: 560
         y: 398
-        width: 271
-        height: 155
+        width: 362
+        height: 195
       alignment: 9
-      pivot: {x: 0.5, y: 0.44512212}
+      pivot: {x: 0.57945865, y: 0.49999952}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98f7718f102facfe0800000000000000
-      internalID: -1167855063078043767
+      spriteID: 112a7163df01cd300800000000000000
+      internalID: 278115956710416913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_3
+      name: moto_idle_7
       rect:
         serializedVersion: 2
-        x: 45
-        y: 198
-        width: 270
-        height: 180
-      alignment: 9
-      pivot: {x: 0.5, y: 0.38186052}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 29f4dee17f7957860800000000000000
-      internalID: 7527089439851237266
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bulldozer_idle_4
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 201
-        width: 268
-        height: 185
-      alignment: 9
-      pivot: {x: 0.49206543, y: 0.35056943}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce9e5c48493deb890800000000000000
-      internalID: -7440276899533297172
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bulldozer_idle_5
-      rect:
-        serializedVersion: 2
-        x: 733
-        y: 200
-        width: 270
+        x: 1040
+        y: 397
+        width: 360
         height: 194
       alignment: 9
-      pivot: {x: 0.5, y: 0.35750195}
+      pivot: {x: 0.588778, y: 0.4835254}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a42a9213f9cb21a0800000000000000
-      internalID: -6833145963778267994
+      spriteID: 2cb46a7357e561150800000000000000
+      internalID: 5842961424097627074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_6
+      name: moto_idle_8
       rect:
         serializedVersion: 2
-        x: 734
-        y: 7
-        width: 271
-        height: 194
+        x: 82
+        y: 94
+        width: 367
+        height: 192
       alignment: 9
-      pivot: {x: 0.5, y: 0.3465406}
+      pivot: {x: 0.595793, y: 0.49999976}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c6bc8c06aa430650800000000000000
-      internalID: 6197879589227509445
+      spriteID: 67a6ce44316a8a250800000000000000
+      internalID: 5956193108888414838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_7
+      name: moto_idle_9
       rect:
         serializedVersion: 2
-        x: 44
-        y: 7
-        width: 268
-        height: 191
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3218631}
+        x: 623
+        y: 94
+        width: 289
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb14c8a9e664d53d0800000000000000
-      internalID: -3216337118019436098
+      spriteID: 66e085274224f6890800000000000000
+      internalID: -7462673333224993178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulldozer_idle_8
+      name: moto_idle_11
       rect:
         serializedVersion: 2
-        x: 388
-        y: 7
-        width: 268
-        height: 191
+        x: 1062
+        y: 96
+        width: 333
+        height: 192
       alignment: 9
-      pivot: {x: 0.5, y: 0.3552638}
+      pivot: {x: 0.5671834, y: 0.4833541}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4bf33eeb94069e90800000000000000
-      internalID: -7019417901447513266
+      spriteID: bb75ff797fd552640800000000000000
+      internalID: 5054549474781648827
       vertices: []
       indices: 
       edges: []
@@ -338,7 +347,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bb81cb9836d6d6c45bd82b48d5eee335
+    spriteID: f9b5f60f9febac3409196905971104c0
     internalID: 0
     vertices: []
     indices: 
@@ -348,15 +357,18 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bulldozer_idle_0: 6830742577625560735
-      Bulldozer_idle_1: -763806471477202875
-      Bulldozer_idle_2: -1167855063078043767
-      Bulldozer_idle_3: 7527089439851237266
-      Bulldozer_idle_4: -7440276899533297172
-      Bulldozer_idle_5: -6833145963778267994
-      Bulldozer_idle_6: 6197879589227509445
-      Bulldozer_idle_7: -3216337118019436098
-      Bulldozer_idle_8: -7019417901447513266
+      moto_idle_0: 8587544810923219452
+      moto_idle_1: 7501595373775423092
+      moto_idle_10: 7637616841903848894
+      moto_idle_11: 5054549474781648827
+      moto_idle_2: 8834419198390966941
+      moto_idle_3: -7279583561502429479
+      moto_idle_4: 6618014517989129364
+      moto_idle_5: -4317034452362338365
+      moto_idle_6: 278115956710416913
+      moto_idle_7: 5842961424097627074
+      moto_idle_8: 5956193108888414838
+      moto_idle_9: -7462673333224993178
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
