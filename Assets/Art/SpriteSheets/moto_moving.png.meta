@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7c63bdd915e8f7b488613c6e32386d45
+guid: f52209a3091f45945ba72dd58e8950a0
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -32,6 +32,12 @@ TextureImporter:
   - first:
       213: -7462673333224993178
     second: moto_idle_9
+  - first:
+      213: 7637616841903848894
+    second: moto_idle_10
+  - first:
+      213: 5054549474781648827
+    second: moto_idle_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 120
+  spritePixelsToUnits: 140
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -143,12 +149,12 @@ TextureImporter:
       name: moto_idle_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 562
-        width: 286
-        height: 175
+        x: 147
+        y: 704
+        width: 300
+        height: 203
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -162,37 +168,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_1
-      rect:
-        serializedVersion: 2
-        x: 371
-        y: 560
-        width: 287
-        height: 177
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 476099e4f350b1860800000000000000
-      internalID: 7501595373775423092
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: moto_idle_2
       rect:
         serializedVersion: 2
-        x: 705
-        y: 561
-        width: 287
-        height: 176
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 592
+        y: 703
+        width: 326
+        height: 195
+      alignment: 9
+      pivot: {x: 0.54901874, y: 0.49999937}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +193,12 @@ TextureImporter:
       name: moto_idle_3
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 562
-        width: 288
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1034
+        y: 703
+        width: 363
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5792398, y: 0.46722004}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +215,12 @@ TextureImporter:
       name: moto_idle_4
       rect:
         serializedVersion: 2
-        x: 1372
-        y: 558
-        width: 289
-        height: 175
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 100
+        y: 398
+        width: 356
+        height: 196
+      alignment: 9
+      pivot: {x: 0.5718203, y: 0.49999985}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -250,37 +234,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_5
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 274
-        width: 288
-        height: 179
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3cfd1d7c900d614c0800000000000000
-      internalID: -4317034452362338365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: moto_idle_6
       rect:
         serializedVersion: 2
-        x: 371
-        y: 278
-        width: 287
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 560
+        y: 398
+        width: 362
+        height: 195
+      alignment: 9
+      pivot: {x: 0.57945865, y: 0.49999952}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +259,12 @@ TextureImporter:
       name: moto_idle_7
       rect:
         serializedVersion: 2
-        x: 706
-        y: 279
-        width: 291
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1040
+        y: 397
+        width: 360
+        height: 194
+      alignment: 9
+      pivot: {x: 0.588778, y: 0.4835254}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -319,12 +281,12 @@ TextureImporter:
       name: moto_idle_8
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 278
-        width: 289
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 82
+        y: 94
+        width: 367
+        height: 192
+      alignment: 9
+      pivot: {x: 0.595793, y: 0.49999976}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -341,12 +303,12 @@ TextureImporter:
       name: moto_idle_9
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 275
-        width: 291
-        height: 177
+        x: 623
+        y: 94
+        width: 289
+        height: 184
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -359,11 +321,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: moto_idle_11
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 96
+        width: 333
+        height: 192
+      alignment: 9
+      pivot: {x: 0.5671834, y: 0.4833541}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb75ff797fd552640800000000000000
+      internalID: 5054549474781648827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f9b5f60f9febac3409196905971104c0
     internalID: 0
     vertices: []
     indices: 
@@ -375,6 +359,8 @@ TextureImporter:
     nameFileIdTable:
       moto_idle_0: 8587544810923219452
       moto_idle_1: 7501595373775423092
+      moto_idle_10: 7637616841903848894
+      moto_idle_11: 5054549474781648827
       moto_idle_2: 8834419198390966941
       moto_idle_3: -7279583561502429479
       moto_idle_4: 6618014517989129364

@@ -1,37 +1,52 @@
 fileFormatVersion: 2
-guid: 7c63bdd915e8f7b488613c6e32386d45
+guid: d169ec116ade5a44b81ad695e261fde2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8587544810923219452
-    second: moto_idle_0
+      213: -6223966269338057008
+    second: avion_idle_0
   - first:
-      213: 7501595373775423092
-    second: moto_idle_1
+      213: 2814950125966656075
+    second: avion_idle_1
   - first:
-      213: 8834419198390966941
-    second: moto_idle_2
+      213: -5590654257441036647
+    second: avion_idle_2
   - first:
-      213: -7279583561502429479
-    second: moto_idle_3
+      213: 5836189272204895721
+    second: avion_idle_3
   - first:
-      213: 6618014517989129364
-    second: moto_idle_4
+      213: -4402774204560954212
+    second: avion_idle_4
   - first:
-      213: -4317034452362338365
-    second: moto_idle_5
+      213: 57233616876223285
+    second: avion_idle_5
   - first:
-      213: 278115956710416913
-    second: moto_idle_6
+      213: -1760291085583377261
+    second: avion_idle_6
   - first:
-      213: 5842961424097627074
-    second: moto_idle_7
+      213: 84687641599097697
+    second: avion_idle_7
   - first:
-      213: 5956193108888414838
-    second: moto_idle_8
+      213: -2426845873336655615
+    second: avion_idle_8
   - first:
-      213: -7462673333224993178
-    second: moto_idle_9
+      213: 6179125575588546620
+    second: avion_idle_9
+  - first:
+      213: -4765375680256338014
+    second: avion_idle_10
+  - first:
+      213: 2294148100599434798
+    second: avion_idle_11
+  - first:
+      213: 5701664124051848026
+    second: avion_idle_12
+  - first:
+      213: 4840428064944216845
+    second: avion_idle_13
+  - first:
+      213: -3633721936301253607
+    second: avion_idle_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -78,7 +93,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 120
+  spritePixelsToUnits: 70
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -140,221 +155,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: moto_idle_0
+      name: avion_idle_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 562
-        width: 286
-        height: 175
+        x: 14
+        y: 237
+        width: 124
+        height: 85
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cf9d3dbb1861d2770800000000000000
-      internalID: 8587544810923219452
+      spriteID: 0d6871e67a700a9a0800000000000000
+      internalID: -6223966269338057008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_1
+      name: avion_idle_2
       rect:
         serializedVersion: 2
-        x: 371
-        y: 560
-        width: 287
-        height: 177
+        x: 143
+        y: 236
+        width: 125
+        height: 83
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 476099e4f350b1860800000000000000
-      internalID: 7501595373775423092
+      spriteID: 996a33bc2910a62b0800000000000000
+      internalID: -5590654257441036647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_2
+      name: avion_idle_3
       rect:
         serializedVersion: 2
-        x: 705
-        y: 561
-        width: 287
-        height: 176
+        x: 269
+        y: 234
+        width: 124
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d9a1cf444792a9a70800000000000000
-      internalID: 8834419198390966941
+      spriteID: 9e5e7bbb83f4ef050800000000000000
+      internalID: 5836189272204895721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_3
+      name: avion_idle_4
       rect:
         serializedVersion: 2
-        x: 1032
-        y: 562
-        width: 288
-        height: 171
+        x: 396
+        y: 236
+        width: 121
+        height: 74
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9deefd7d159b9fa90800000000000000
-      internalID: -7279583561502429479
+      spriteID: c9c24e6103436e2c0800000000000000
+      internalID: -4402774204560954212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_4
+      name: avion_idle_6
       rect:
         serializedVersion: 2
-        x: 1372
-        y: 558
-        width: 289
-        height: 175
+        x: 522
+        y: 234
+        width: 119
+        height: 72
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 49cbe1fe329e7db50800000000000000
-      internalID: 6618014517989129364
+      spriteID: 39c148685903297e0800000000000000
+      internalID: -1760291085583377261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_5
+      name: avion_idle_7
       rect:
         serializedVersion: 2
-        x: 37
-        y: 274
-        width: 288
-        height: 179
+        x: 13
+        y: 84
+        width: 122
+        height: 79
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3cfd1d7c900d614c0800000000000000
-      internalID: -4317034452362338365
+      spriteID: 16b316a16fedc2100800000000000000
+      internalID: 84687641599097697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_6
+      name: avion_idle_8
       rect:
         serializedVersion: 2
-        x: 371
-        y: 278
-        width: 287
-        height: 178
+        x: 144
+        y: 77
+        width: 118
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 112a7163df01cd300800000000000000
-      internalID: 278115956710416913
+      spriteID: 1016523498c125ed0800000000000000
+      internalID: -2426845873336655615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_7
+      name: avion_idle_9
       rect:
         serializedVersion: 2
-        x: 706
-        y: 279
-        width: 291
-        height: 173
+        x: 268
+        y: 79
+        width: 119
+        height: 78
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cb46a7357e561150800000000000000
-      internalID: 5842961424097627074
+      spriteID: c388c7bf8f9a0c550800000000000000
+      internalID: 6179125575588546620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_8
+      name: avion_idle_10
       rect:
         serializedVersion: 2
-        x: 1040
-        y: 278
-        width: 289
-        height: 173
+        x: 393
+        y: 77
+        width: 120
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67a6ce44316a8a250800000000000000
-      internalID: 5956193108888414838
+      spriteID: 2a7190d111cfdddb0800000000000000
+      internalID: -4765375680256338014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: moto_idle_9
+      name: avion_idle_11
       rect:
         serializedVersion: 2
-        x: 1371
-        y: 275
-        width: 291
-        height: 177
+        x: 520
+        y: 77
+        width: 120
+        height: 80
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66e085274224f6890800000000000000
-      internalID: -7462673333224993178
+      spriteID: e2ecd56ea8376df10800000000000000
+      internalID: 2294148100599434798
       vertices: []
       indices: 
       edges: []
@@ -363,7 +378,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8f10fe409d8e50f4f846b0ceb36d9cff
     internalID: 0
     vertices: []
     indices: 
@@ -373,16 +388,21 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      moto_idle_0: 8587544810923219452
-      moto_idle_1: 7501595373775423092
-      moto_idle_2: 8834419198390966941
-      moto_idle_3: -7279583561502429479
-      moto_idle_4: 6618014517989129364
-      moto_idle_5: -4317034452362338365
-      moto_idle_6: 278115956710416913
-      moto_idle_7: 5842961424097627074
-      moto_idle_8: 5956193108888414838
-      moto_idle_9: -7462673333224993178
+      avion_idle_0: -6223966269338057008
+      avion_idle_1: 2814950125966656075
+      avion_idle_10: -4765375680256338014
+      avion_idle_11: 2294148100599434798
+      avion_idle_12: 5701664124051848026
+      avion_idle_13: 4840428064944216845
+      avion_idle_14: -3633721936301253607
+      avion_idle_2: -5590654257441036647
+      avion_idle_3: 5836189272204895721
+      avion_idle_4: -4402774204560954212
+      avion_idle_5: 57233616876223285
+      avion_idle_6: -1760291085583377261
+      avion_idle_7: 84687641599097697
+      avion_idle_8: -2426845873336655615
+      avion_idle_9: 6179125575588546620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
