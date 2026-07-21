@@ -8,6 +8,9 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float velocidadMoto = 8f;
     [SerializeField] float velocidadAvion = 5f;
     [SerializeField] float velocidadBulldozer = 2f;
+    
+    [Header("Configuración de Salto (Solo Moto)")]
+    [SerializeField] float fuerzaSalto = 12f;
 
     // Componentes del mismo Player
     private Rigidbody2D _body;
@@ -18,6 +21,8 @@ public class PlayerMove : MonoBehaviour
     private InputAction _moveAction;
 
     public Vector2 CurrentMoveInput { get; private set; }
+    
+    private bool enSuelo = false; // Controla si estamos tocando el piso o una plataforma
 
     void Awake()
     {
@@ -36,6 +41,14 @@ public class PlayerMove : MonoBehaviour
             _body.linearVelocityX = 0;
             _animator.SetBool("IsMoving", false);
             return;
+        }
+
+        // --- LÓGICA DE SALTO ---
+        // Si presionas Espacio, eres Moto y estás tocando algo sólido (suelo/rampa)
+        if (Input.GetKeyDown(KeyCode.Space) && _playerTransform != null && _playerTransform.currentForm == PlayerTransform.Form.Moto && enSuelo)
+        {
+            // Le damos impulso hacia arriba
+            _body.linearVelocityY = fuerzaSalto;
         }
 
         float velocidadActual = ObtenerVelocidadPorForma();
@@ -77,5 +90,16 @@ public class PlayerMove : MonoBehaviour
             default:
                 return velocidadMoto;
         }
+    }
+
+    // Funciones para detectar si estamos tocando una superficie para poder saltar
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        enSuelo = true;
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        enSuelo = false;
     }
 }
