@@ -12548,6 +12548,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae389c09904291540b77bc2668eb93f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SensorMuerte
+--- !u!1 &415889005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 415889007}
+  - component: {fileID: 415889006}
+  m_Layer: 0
+  m_Name: DataHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &415889006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415889005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 311d57637a2ad7747a844358e553672a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DataHolder
+  posicionCheckpoint: {x: 0, y: 0, z: 0}
+  tieneCheckpoint: 0
+  contrasena: 
+  contrasenaIngresada: 
+--- !u!4 &415889007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415889005}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 55.79097, y: -2.03319, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &416064308
 GameObject:
   m_ObjectHideFlags: 0
@@ -122355,3 +122403,4 @@ SceneRoots:
   - {fileID: 1431309746}
   - {fileID: 30068895}
   - {fileID: 501744908}
+  - {fileID: 415889007}
