@@ -31,7 +31,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlayMusic(string name)
     {
-        Sound s = Array.Find(musicSounds, x=> x.name==name);
+        Sound s = Array.Find(musicSounds, x=> x != null && x.name==name);
 
         if (s==null)
         {
@@ -45,7 +45,7 @@ public class AudioManager : MonoBehaviour
     }
     public void PlaySFX(string name)
     {
-        Sound s = Array.Find(sfxSounds, x=> x.name==name);
+        Sound s = Array.Find(sfxSounds, x=> x != null && x.name==name);
 
         if (s==null)
         {
@@ -59,7 +59,7 @@ public class AudioManager : MonoBehaviour
     }
      public void PlaylastingSFX(string name)
     {
-        Sound s = Array.Find(lastingsfxSounds, x=> x.name==name);
+        Sound s = Array.Find(lastingsfxSounds, x=> x != null && x.name==name);
 
         if (s==null)
         {
