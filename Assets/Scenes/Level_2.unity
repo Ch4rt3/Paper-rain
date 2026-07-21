@@ -52430,7 +52430,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.41864777, y: 0.49809337}
+  m_Offset: {x: -0.20049286, y: 0.4155419}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -52440,7 +52440,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.2969208, y: 4.6378417}
+  m_Size: {x: 4.535202, y: 4.4727387}
   m_EdgeRadius: 0
 --- !u!114 &681310633
 MonoBehaviour:
@@ -52454,7 +52454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19f3156c99ccd9b428c5a8ad41e0033d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CambioEscena
-  nombreSiguienteEscena: Level_2
+  nombreSiguienteEscena: CutsceneFinal
   imagenFondo: {fileID: 0}
   velocidadTransicion: 1.5
 --- !u!4 &681310634
@@ -117860,7 +117860,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -386397759
   m_SortingLayer: 2
-  m_SortingOrder: 6
+  m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 5253272716682174464, guid: edf99ffa9c83cef46bf4afe8211e4ab4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
