@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float velocidadBulldozer = 2f;
     
     [Header("Configuración de Salto (Solo Moto)")]
-    [SerializeField] float fuerzaSalto = 12f;
+    [SerializeField] float fuerzaSalto = 2.5f;
 
     // Componentes del mismo Player
     private Rigidbody2D _body;
@@ -49,6 +49,12 @@ public class PlayerMove : MonoBehaviour
         {
             // Le damos impulso hacia arriba
             _body.linearVelocityY = fuerzaSalto;
+            
+            // Disparamos la animación
+            if (_animator != null)
+            {
+                _animator.SetTrigger("Jump");
+            }
         }
 
         float velocidadActual = ObtenerVelocidadPorForma();
