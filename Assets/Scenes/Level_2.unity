@@ -106609,7 +106609,7 @@ Transform:
   m_GameObject: {fileID: 1337167913}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.22, y: -8.86, z: 0}
+  m_LocalPosition: {x: 76.73, y: -6.43, z: 0}
   m_LocalScale: {x: 0.7808, y: 0.7808, z: 0.7808}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -109338,6 +109338,8 @@ GameObject:
   - component: {fileID: 2105076053}
   - component: {fileID: 2105076052}
   - component: {fileID: 2105076054}
+  - component: {fileID: 2105076055}
+  - component: {fileID: 2105076056}
   m_Layer: 0
   m_Name: Poste_Luz1_0
   m_TagString: Untagged
@@ -110486,6 +110488,66 @@ PolygonCollider2D:
       - {x: 3.135, y: 4.865}
       - {x: 3.125, y: 4.865}
   m_UseDelaunayMesh: 1
+--- !u!114 &2105076055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105076051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b55837c3c4527d64a99571fbcd5b82a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FiltroPoste
+  colliderRampa: {fileID: 2105076054}
+  colliderParedBloqueo: {fileID: 2105076056}
+--- !u!61 &2105076056
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2105076051}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 1.0041909, y: 0.5530169}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 7.75, y: 11.29}
+    newSize: {x: 7.75, y: 11.29}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 5.741618, y: 10.183968}
+  m_EdgeRadius: 0
 --- !u!1 &2124519127
 GameObject:
   m_ObjectHideFlags: 0
