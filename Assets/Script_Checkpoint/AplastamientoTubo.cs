@@ -1,20 +1,25 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Necesario si quieres reiniciar la escena al morir
+using UnityEngine.SceneManagement;
 
 public class AplastamientoTubo : MonoBehaviour
 {
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Verificamos si el objeto con el que chocó el tubo tiene la etiqueta "Player"
         if (collision.gameObject.CompareTag("Player"))
         {
-            Debug.Log("¡El tubo aplastó al jugador!");
+            foreach (ContactPoint2D contacto in collision.contacts)
+            {
+                // Invertimos la condición: Si la normal apunta hacia ARRIBA desde el punto de vista del punto de choque,
+                // significa que la cara inferior del tubo está impactando la parte superior del jugador.
+                if (contacto.normal.y > 0.5f)
+                {
+                    Debug.Log("¡El tubo aplastó al jugador desde arriba!");
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                    return;
+                }
+            }
 
-            // Opción A: Reiniciar la escena actual de inmediato
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
-            // Opción B: Si tienes un script de salud/muerte en el jugador, puedes llamarlo aquí:
-            // collision.gameObject.GetComponent<ControladorJugador>().Morir();
+            Debug.Log("El jugador pasa por encima del tubo de forma segura.");
         }
     }
 }
