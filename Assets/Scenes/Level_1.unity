@@ -3105,7 +3105,7 @@ SpriteRenderer:
   m_Size: {x: 3.93, y: 3.78}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!1 &167782783
 GameObject:
@@ -8707,7 +8707,7 @@ SpriteRenderer:
   m_Size: {x: 3.94, y: 3.81}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!1 &579372730
 GameObject:
@@ -12062,7 +12062,7 @@ SpriteRenderer:
   m_Size: {x: 4.11, y: 3.89}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1313293685
 GameObject:
@@ -13648,17 +13648,17 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: ea5a3fd7513040b429a266adf8d0480f, type: 3}
   sfxSounds:
   - name: puerta
-    clip: {fileID: 8300000, guid: 1c8571150e40ee645b1b17aed40168f1, type: 3}
+    clip: {fileID: 8300000, guid: 7a7c6e452541c78409e3fb32ba140b7b, type: 3}
   - name: libro
-    clip: {fileID: 8300000, guid: 0daa7a1c2951cfd46b6142442416d39e, type: 3}
+    clip: {fileID: 8300000, guid: d2073442744e6c645956ad0d034da1c7, type: 3}
   - name: moto
-    clip: {fileID: 8300000, guid: 315b172d60ea39f44be3280b8cc21db1, type: 3}
+    clip: {fileID: 8300000, guid: ccd23c849f7340a46bf9df8acda52c32, type: 3}
   - name: muerte
-    clip: {fileID: 8300000, guid: 0521134a1d03cf245b86f0e352a1bb30, type: 3}
+    clip: {fileID: 8300000, guid: f49b55bc1aafaa340bac747e017b1c6d, type: 3}
   - name: transformacion
-    clip: {fileID: 8300000, guid: b9f007ab28dcf0341b997f891fa4d05b, type: 3}
+    clip: {fileID: 8300000, guid: 3926dfcad449d644386c4dd271421883, type: 3}
   - name: checkpoint
-    clip: {fileID: 8300000, guid: cdeeeda10ec36ba42911f848e483b5b8, type: 3}
+    clip: {fileID: 8300000, guid: 2e7aef77004a7a441bbaced32d8c0cb9, type: 3}
   lastingsfxSounds:
   - name: moto
     clip: {fileID: 8300000, guid: 315b172d60ea39f44be3280b8cc21db1, type: 3}
