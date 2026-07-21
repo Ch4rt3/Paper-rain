@@ -82220,7 +82220,7 @@ MonoBehaviour:
   velocidadMoto: 8
   velocidadAvion: 5
   velocidadBulldozer: 2
-  fuerzaSalto: 12
+  fuerzaSalto: 6
 --- !u!114 &2091483887
 MonoBehaviour:
   m_ObjectHideFlags: 0
