@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: 89508f7cc2b492a4e8b9b330799f3fdf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6437188583050370622
+    second: moto_jump_0
+  - first:
+      213: 2210002372686685027
+    second: moto_jump_1
+  - first:
+      213: -4212760368249647628
+    second: moto_jump_2
+  - first:
+      213: 7821125779983425872
+    second: moto_jump_3
+  - first:
+      213: -6490072882736386444
+    second: moto_jump_4
+  - first:
+      213: 8339609369155238030
+    second: moto_jump_5
+  - first:
+      213: 2834461717337104798
+    second: moto_jump_6
+  - first:
+      213: 6663221825067383716
+    second: moto_jump_7
+  - first:
+      213: 6919433146947228901
+    second: moto_jump_8
+  - first:
+      213: 2298074433196112366
+    second: moto_jump_9
+  - first:
+      213: 103565486425485179
+    second: moto_jump_10
+  - first:
+      213: 394200148117232049
+    second: moto_jump_11
+  - first:
+      213: 3263835724674365031
+    second: moto_jump_12
+  - first:
+      213: -9169623290639396775
+    second: moto_jump_13
+  - first:
+      213: -4884818256391976952
+    second: moto_jump_14
+  - first:
+      213: -7106501317299768591
+    second: moto_jump_15
+  - first:
+      213: -6003413028632827423
+    second: moto_jump_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 115
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: moto_jump_0
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 332
+        width: 306
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3edaec19ec755950800000000000000
+      internalID: 6437188583050370622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_jump_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 325
+        width: 302
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363a2c8e2718bae10800000000000000
+      internalID: 2210002372686685027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_jump_2
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 325
+        width: 295
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdc2a6e3c44985c0800000000000000
+      internalID: -4212760368249647628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_jump_3
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 321
+        width: 288
+        height: 206
+      alignment: 9
+      pivot: {x: 0.50758404, y: 0.5636127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051ef8375783a8c60800000000000000
+      internalID: 7821125779983425872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_jump_4
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 321
+        width: 286
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e2a1a5911aee5a0800000000000000
+      internalID: -6490072882736386444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_jump_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 45
+        width: 281
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab75c652f4887c50800000000000000
+      internalID: 6663221825067383716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_jump_8
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 96
+        width: 256
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e45ad259c3c60060800000000000000
+      internalID: 6919433146947228901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_jump_9
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 105
+        width: 259
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9bf02758664ef10800000000000000
+      internalID: 2298074433196112366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_jump_10
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 119
+        width: 264
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fa16dd240ff6100800000000000000
+      internalID: 103565486425485179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: moto_jump_11
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 130
+        width: 279
+        height: 169
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b91fe632fa787500800000000000000
+      internalID: 394200148117232049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6fb142be4d0545f43a17fcb84dcec91f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      moto_jump_0: 6437188583050370622
+      moto_jump_1: 2210002372686685027
+      moto_jump_10: 103565486425485179
+      moto_jump_11: 394200148117232049
+      moto_jump_12: 3263835724674365031
+      moto_jump_13: -9169623290639396775
+      moto_jump_14: -4884818256391976952
+      moto_jump_15: -7106501317299768591
+      moto_jump_16: -6003413028632827423
+      moto_jump_2: -4212760368249647628
+      moto_jump_3: 7821125779983425872
+      moto_jump_4: -6490072882736386444
+      moto_jump_5: 8339609369155238030
+      moto_jump_6: 2834461717337104798
+      moto_jump_7: 6663221825067383716
+      moto_jump_8: 6919433146947228901
+      moto_jump_9: 2298074433196112366
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
