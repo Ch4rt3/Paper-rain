@@ -4019,6 +4019,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 476468084608939002, guid: b86d2cb450fbdb64682a0accef70d58d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4710995256347567573, guid: ee450e23e7cba284ea1a75c1363602ed, type: 3}
     - target: {fileID: 1080086233804340956, guid: b86d2cb450fbdb64682a0accef70d58d, type: 3}
       propertyPath: m_Name
       value: PauseSystem 2
@@ -4067,6 +4071,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3803931362338258716, guid: b86d2cb450fbdb64682a0accef70d58d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8930691916819698061, guid: ee450e23e7cba284ea1a75c1363602ed, type: 3}
+    - target: {fileID: 5528178372998933398, guid: b86d2cb450fbdb64682a0accef70d58d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5378005287424016334, guid: ee450e23e7cba284ea1a75c1363602ed, type: 3}
     - target: {fileID: 8203210361642477830, guid: b86d2cb450fbdb64682a0accef70d58d, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -82473,7 +82485,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.86, y: 1.66}
+  m_Size: {x: 2.02, y: 1.34}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
