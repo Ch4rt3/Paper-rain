@@ -1053,9 +1053,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 936842564}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d766922cc3299c49aa58356f5f25859, type: 3}
+  m_Script: {fileID: 11500000, guid: 0e265e9a55c947646ba13d5fb36c611c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ControladorFinal
+  m_EditorClassIdentifier: Assembly-CSharp::ControladorIntro
   vinetas:
   - {fileID: 1605431314}
   - {fileID: 486428970}
@@ -1070,8 +1070,9 @@ MonoBehaviour:
   - {fileID: 132176574}
   - {fileID: 1528812171}
   - {fileID: 248722361}
-  tiempoEspera: 0.5
-  nombreSiguienteEscena: MainMenu
+  - {fileID: 1605431314}
+  tiempoEspera: 2
+  nombreSiguienteEscena: Level_1
 --- !u!1 &1191390951
 GameObject:
   m_ObjectHideFlags: 0
@@ -1230,9 +1231,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 0e265e9a55c947646ba13d5fb36c611c, type: 3}
-        m_TargetAssemblyTypeName: UnityEditor.MonoScript, UnityEditor.CoreModule
-        m_MethodName: 
+      - m_Target: {fileID: 936842567}
+        m_TargetAssemblyTypeName: ControladorIntro, Assembly-CSharp
+        m_MethodName: AvanzarCinematica
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
